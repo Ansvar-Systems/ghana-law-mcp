@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "eu.ansvar/ghana-law-mcp",
+  "description": "Ghana law database covering data protection, cybersecurity, electronic transactions, companies, and communications law with full-text search",
+  "repository": {
+    "url": "https://github.com/Ansvar-Systems/ghana-law-mcp",
+    "source": "github"
+  },
+  "homepage": "https://ansvar.eu",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@ansvar/ghana-law-mcp",
+      "version": "1.0.0",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}

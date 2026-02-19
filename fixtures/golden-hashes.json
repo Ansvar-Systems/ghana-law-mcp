@@ -1,0 +1,56 @@
+{
+  "$schema": "./golden-hashes.schema.json",
+  "version": "1.0",
+  "mcp_name": "Ghana Law MCP",
+  "jurisdiction": "GH",
+  "provisions": [
+    {
+      "id": "gh-hash-001",
+      "description": "Constitution of the Republic of Ghana (1992), Article 1 — sovereignty of Ghana and supremacy of the Constitution",
+      "upstream_url": "https://ghalii.org/gh/legislation/const/1992",
+      "selector_hint": "Article 1 - Sovereignty of Ghana",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "sovereignty of Ghana"
+    },
+    {
+      "id": "gh-hash-002",
+      "description": "Constitution of Ghana (1992), Article 18(2) — right to privacy of home and correspondence, protection against interference with privacy",
+      "upstream_url": "https://ghalii.org/gh/legislation/const/1992",
+      "selector_hint": "Article 18(2) - Right to privacy",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "privacy"
+    },
+    {
+      "id": "gh-hash-003",
+      "description": "Data Protection Act 2012 (Act 843), Section 1 — establishment of the Data Protection Commission as a body corporate",
+      "upstream_url": "https://ghalii.org/gh/legislation/act/2012/843",
+      "selector_hint": "Section 1 - Establishment of the Data Protection Commission",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "Data Protection Commission"
+    },
+    {
+      "id": "gh-hash-004",
+      "description": "Cybersecurity Act 2020 (Act 1038), Section 1 — establishment of the Cyber Security Authority",
+      "upstream_url": "https://ghalii.org/gh/legislation/act/2020/1038",
+      "selector_hint": "Section 1 - Establishment of Cyber Security Authority",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "Cyber Security Authority"
+    },
+    {
+      "id": "gh-hash-005",
+      "description": "Electronic Transactions Act 2008 (Act 772), Section 1 — scope and application of the Act to electronic transactions and communications",
+      "upstream_url": "https://ghalii.org/gh/legislation/act/2008/772",
+      "selector_hint": "Section 1 - Scope",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "electronic"
+    },
+    {
+      "id": "gh-hash-006",
+      "description": "Companies Act 2019 (Act 992), Section 1 — incorporation of companies and scope of the Act",
+      "upstream_url": "https://ghalii.org/gh/legislation/act/2019/992",
+      "selector_hint": "Section 1 - Incorporation",
+      "expected_sha256": "COMPUTE_ON_FIRST_INGEST",
+      "expected_snippet": "compan"
+    }
+  ]
+}

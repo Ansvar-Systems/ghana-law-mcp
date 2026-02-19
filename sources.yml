@@ -1,0 +1,83 @@
+# sources.yml
+schema_version: "1.0"
+mcp_name: "Ghana Law MCP"
+jurisdiction: "GH"
+
+sources:
+  - name: "Ghana Legal Information Institute (GhanaLII)"
+    authority: "GhanaLII, African Legal Information Institute (AfricanLII)"
+    official_portal: "https://ghalii.org"
+    canonical_identifier: "N/A (Ghanaian legislation identified by Act title + year + Act number; e.g., Data Protection Act, 2012 (Act 843))"
+    retrieval_method: "HTML_SCRAPE"
+    api_documentation: "N/A (no public API; legislation available as HTML pages)"
+    update_frequency: "on_change"
+    last_ingested: "PENDING_FIRST_INGEST"
+    license_or_terms:
+      type: "Free Access (AfricanLII Terms)"
+      url: "https://ghalii.org"
+      summary: "Free access to Ghanaian legal information; legislation and case law published under AfricanLII open access principles; government legislation is public domain"
+    coverage:
+      scope: "All Acts of Parliament, Legislative Instruments (L.I.), Constitutional Instruments (C.I.), Executive Instruments (E.I.), superior court decisions from Supreme Court, Court of Appeal, and High Court; includes Data Protection Act 2012 (Act 843), Cybersecurity Act 2020 (Act 1038), Electronic Transactions Act 2008 (Act 772), Companies Act 2019 (Act 992), NCA Act 2008 (Act 769), Right to Information Act 2019 (Act 989)"
+      limitations: "Historical legislation before GhanaLII digitisation may be incomplete; subsidiary legislation coverage varies; not all court decisions are published; some Acts may not include the most recent amendments"
+    languages:
+      - "en"
+
+  - name: "Laws of Ghana (Ghana Publishing Company)"
+    authority: "Ghana Publishing Company, Republic of Ghana"
+    official_portal: "https://www.ghana.gov.gh"
+    canonical_identifier: "N/A (Acts numbered sequentially per year; e.g., Act 843)"
+    retrieval_method: "PDF"
+    api_documentation: "N/A"
+    update_frequency: "on_change"
+    last_ingested: "PENDING_FIRST_INGEST"
+    license_or_terms:
+      type: "Government Public Data"
+      url: "https://www.ghana.gov.gh"
+      summary: "Official gazette and legislative compilation; government legislation is public domain under Ghanaian law; Ghana Publishing Company is the authorised publisher"
+    coverage:
+      scope: "Gazette versions of all Acts of Parliament, Legislative Instruments, and Constitutional Instruments as published by the Ghana Publishing Company"
+      limitations: "PDF format requires OCR/parsing for structured extraction; may not include consolidated versions with amendments; publication lag between enactment and availability; the Ghana.gov.gh portal has limited search functionality"
+    languages:
+      - "en"
+
+  - name: "Data Protection Commission (Ghana)"
+    authority: "Data Protection Commission, Republic of Ghana"
+    official_portal: "https://dpc.org.gh"
+    canonical_identifier: "N/A"
+    retrieval_method: "HTML_SCRAPE"
+    api_documentation: "N/A"
+    update_frequency: "on_change"
+    last_ingested: "PENDING_FIRST_INGEST"
+    license_or_terms:
+      type: "Government Public Data"
+      url: "https://dpc.org.gh"
+      summary: "DPC publications including guidelines, registration forms, and enforcement notices are public government documents"
+    coverage:
+      scope: "Data Protection Commission guidelines, registration requirements for data controllers/processors, guidelines on data protection impact assessments, cross-border data transfer guidance, enforcement notices and decisions"
+      limitations: "DPC website has limited structured content; enforcement decisions are not systematically published; some guidelines are in draft or consultation phase"
+    languages:
+      - "en"
+
+data_freshness:
+  automated_checks: true
+  check_frequency: "weekly"
+  last_verified: "PENDING_FIRST_INGEST"
+
+# Notes:
+# - Ghana was one of the first African countries to enact a comprehensive data
+#   protection law (Data Protection Act, 2012, Act 843)
+# - The Data Protection Commission was established under the DPA 2012 as the
+#   supervisory authority for data protection in Ghana
+# - The Cybersecurity Act, 2020 (Act 1038) is relatively new and established the
+#   Cyber Security Authority as a dedicated national cybersecurity body
+# - The 1992 Constitution of the Republic of Ghana is the supreme law;
+#   Article 18(2) guarantees the right to privacy
+# - Ghana uses a common law legal system inherited from British colonial administration
+# - English is Ghana's official and sole legal language
+# - Ghana's Act numbering is sequential per parliament and year (e.g., Act 843, Act 1038)
+# - GhanaLII (ghalii.org) is the most comprehensive free legal database for Ghana,
+#   operated as part of the AfricanLII network
+# - The Electronic Transactions Act, 2008 (Act 772) governs electronic commerce
+#   and provides for electronic signatures and records
+# - The Right to Information Act, 2019 (Act 989) was enacted after a 20-year
+#   advocacy campaign and provides for access to government-held information
