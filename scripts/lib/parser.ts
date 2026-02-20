@@ -2,7 +2,13 @@
  * GhanaLII HTML parser for Ghana legislation.
  *
  * Parses HTML pages from ghalii.org to extract structured legislation data.
- * Uses cheerio for HTML parsing (AfricanLII platform structure).
+ * Uses cheerio for HTML parsing. GhanaLII uses the AfricanLII / Laws.Africa
+ * platform with Akoma Ntoso (AKN) markup.
+ *
+ * Act index URL: /legislation/ (paginated with ?page=N)
+ * Act content URL: /akn/gh/act/YYYY/NNN/eng@DATE
+ * Content uses: <section class="akn-section"> with nested akn-subsection/akn-paragraph
+ * TOC available as: <script id="akn_toc_json">
  */
 
 import * as cheerio from 'cheerio';
@@ -24,22 +30,27 @@ export interface ActIndexResult {
 }
 
 /**
- * Parse the GhanaLII act index page to extract act listings.
+ * Parse the GhanaLII legislation listing page to extract act entries.
+ * Links follow the Akoma Ntoso pattern: /akn/gh/act/YYYY/NNN/eng@DATE
+ * Some have subtypes: /akn/gh/act/ca/YYYY/NNN/eng@DATE or /akn/gh/act/pndcl/YYYY/NNN/eng@DATE
  */
 export function parseActIndex(html: string): ActIndexResult {
   const $ = cheerio.load(html);
   const entries: ActIndexEntry[] = [];
 
-  // GhanaLII lists legislation in tables or lists with links
-  $('a[href*="/gh/legislation/act/"]').each((_i, el) => {
+  // GhanaLII lists legislation with links to AKN URIs
+  $('a[href*="/akn/gh/act/"]').each((_i, el) => {
     const link = $(el);
     const href = link.attr('href') ?? '';
     const text = link.text().trim();
 
     if (!text || !href) return;
 
-    // Extract year and act number from URL pattern: /gh/legislation/act/YYYY/NNN
-    const urlMatch = href.match(/\/gh\/legislation\/act\/(\d{4})\/(\d+)/);
+    // Extract year and act number from AKN URL patterns:
+    //   /akn/gh/act/YYYY/NNN/eng@DATE
+    //   /akn/gh/act/ca/YYYY/NNN/eng@DATE
+    //   /akn/gh/act/pndcl/YYYY/NNN/eng@DATE
+    const urlMatch = href.match(/\/akn\/gh\/act\/(?:[a-z]+\/)?(\d{4})\/(\d+)\/eng@/);
     if (!urlMatch) return;
 
     const year = parseInt(urlMatch[1], 10);
@@ -62,6 +73,9 @@ export function parseActIndex(html: string): ActIndexResult {
     return text === 'next' || text === '>' || text === '\u203a' || text.includes('next');
   }).length > 0;
 
+  // Also check for a page=N+1 link as a fallback (GhanaLII uses numbered pagination)
+  const hasNumberedNext = $('a[href*="page="]').length > 0 && entries.length > 0;
+
   // Deduplicate by year+actNumber
   const seen = new Set<string>();
   const deduped: ActIndexEntry[] = [];
@@ -73,7 +87,7 @@ export function parseActIndex(html: string): ActIndexResult {
     }
   }
 
-  return { entries: deduped, hasNextPage };
+  return { entries: deduped, hasNextPage: hasNextPage || hasNumberedNext };
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -111,6 +125,17 @@ export interface ParsedAct {
 
 /**
  * Parse a GhanaLII act content page into a structured act with provisions.
+ *
+ * GhanaLII uses Akoma Ntoso markup:
+ *   <section class="akn-section" id="...sec_N">
+ *     <h3>N. Section Title</h3>
+ *     <section class="akn-subsection">
+ *       <span class="akn-num">(1)</span>
+ *       <span class="akn-content"><span class="akn-p">...</span></span>
+ *     </section>
+ *   </section>
+ *
+ * Also has embedded TOC JSON in <script id="akn_toc_json">.
  */
 export function parseActContent(
   html: string,
@@ -123,64 +148,162 @@ export function parseActContent(
   const definitions: ParsedDefinition[] = [];
 
   // Extract title from page if available
-  const pageTitle = $('h1').first().text().trim() || actTitle;
+  const pageTitle = $('title').first().text().trim().replace(/\s*[–—-]\s*GhaLII\s*$/, '') || actTitle;
   const title = pageTitle.replace(/\s+/g, ' ').trim();
   const shortName = buildShortName(title, year);
 
+  // Extract the issued date from the URL (if available in the page's AKN metadata)
+  let issuedDate = `${year}-01-01`;
+  const trackProps = $('script#track-page-properties');
+  if (trackProps.length > 0) {
+    try {
+      const props = JSON.parse(trackProps.text());
+      if (props.expression_frbr_uri) {
+        const dateMatch = props.expression_frbr_uri.match(/@(\d{4}-\d{2}-\d{2})/);
+        if (dateMatch) issuedDate = dateMatch[1];
+      }
+    } catch { /* ignore parse errors */ }
+  }
+
+  // Build the canonical URL
+  const canonicalUrl = `https://ghalii.org/akn/gh/act/${year}/${actNumber}`;
+
+  // Track current part/chapter context from subpart headings
   let currentPart: string | undefined;
   let currentChapter: string | undefined;
-  let isDefinitionSection = false;
 
-  // GhanaLII uses AfricanLII platform structure
-  // Sections are typically marked with anchors and heading elements
-  // Look for section anchors: <a name="sec_N"> or <a id="sec_N">
-  const sectionAnchors = $('a[name^="sec_"], a[id^="sec_"]');
+  // Primary strategy: Parse AKN section elements
+  const sections = $('section.akn-section');
 
-  if (sectionAnchors.length > 0) {
-    // Parse using anchor-based structure
-    sectionAnchors.each((_i, el) => {
-      const anchor = $(el);
-      const nameAttr = anchor.attr('name') || anchor.attr('id') || '';
-      const secMatch = nameAttr.match(/sec_(\d+)/);
+  if (sections.length > 0) {
+    sections.each((_i, el) => {
+      const section = $(el);
+      const sectionId = section.attr('id') || section.attr('data-eid') || '';
+
+      // Extract section number from the id (e.g., "subpart_nn_1__sec_1" -> "1")
+      const secMatch = sectionId.match(/(?:^|__)sec_(\d+)/);
       if (!secMatch) return;
 
       const sectionNum = secMatch[1];
       const provisionRef = `s${sectionNum}`;
 
-      // Get section heading and content
-      // Content typically follows the anchor in sibling or parent elements
-      const parent = anchor.parent();
-      const sectionTitle = extractSectionTitle($, anchor);
-      const content = extractSectionContent($, anchor);
+      // Get section heading from h3/h4
+      const heading = section.children('h3, h4').first();
+      let sectionTitle = heading.text().replace(/\s+/g, ' ').trim();
+      // Remove leading section number (e.g., "1. Application" -> "Application")
+      sectionTitle = sectionTitle.replace(/^\d+\.\s*/, '').trim();
 
-      if (content.trim()) {
+      // Determine parent part/chapter context
+      const parentSubpart = section.closest('section.akn-subpart, section[class*="akn-part"], section[class*="akn-chapter"]');
+      if (parentSubpart.length > 0) {
+        const partHeading = parentSubpart.children('h2, h3').first().text().trim();
+        if (/^PART\s/i.test(partHeading)) currentPart = partHeading;
+        if (/^CHAPTER\s/i.test(partHeading)) currentChapter = partHeading;
+      }
+
+      // Extract content: get all text from subsections and paragraphs
+      const contentParts: string[] = [];
+      section.find('section.akn-subsection').each((_j, sub) => {
+        const subsection = $(sub);
+        const num = subsection.children('.akn-num').text().trim();
+        const text = subsection.find('.akn-p, .akn-content, .akn-intro, .akn-listIntroduction')
+          .map((_k, p) => $(p).text().replace(/\s+/g, ' ').trim())
+          .get()
+          .filter(t => t)
+          .join(' ');
+
+        if (text) {
+          contentParts.push(num ? `${num} ${text}` : text);
+        }
+      });
+
+      // If no subsections found, get direct content
+      if (contentParts.length === 0) {
+        const directContent = section.find('.akn-p, .akn-content').not('section.akn-subsection .akn-p, section.akn-subsection .akn-content')
+          .map((_j, p) => $(p).text().replace(/\s+/g, ' ').trim())
+          .get()
+          .filter(t => t)
+          .join(' ');
+
+        if (directContent) {
+          contentParts.push(directContent);
+        }
+      }
+
+      const content = contentParts.join(' ').replace(/\s+/g, ' ').trim();
+
+      if (content) {
         provisions.push({
           provision_ref: provisionRef,
           part: currentPart,
           chapter: currentChapter,
           section: sectionNum,
           title: sectionTitle,
-          content: content.trim(),
+          content,
         });
 
-        // Check if this is a definitions section
+        // Check for definitions section
         if (/\b(?:interpretation|definitions?)\b/i.test(sectionTitle)) {
-          isDefinitionSection = true;
           extractDefinitionsFromContent(content, definitions, provisionRef);
         }
       }
     });
   }
 
-  // Fallback: parse using heading-based structure
+  // Fallback: use TOC JSON + text extraction
   if (provisions.length === 0) {
-    // Look for section headings in the main content
-    const contentArea = $('.field-name-body, .content, .legislation-content, #content, main').first();
-    const textContent = contentArea.length > 0 ? contentArea : $('body');
+    const tocScript = $('script#akn_toc_json');
+    if (tocScript.length > 0) {
+      try {
+        const toc = JSON.parse(tocScript.text()) as Array<{
+          id: string;
+          num: string;
+          type: string;
+          title: string;
+          heading: string;
+          children: Array<any>;
+          basic_unit: boolean;
+        }>;
 
-    // Find section patterns in text
-    const fullText = textContent.text();
-    const sectionPattern = /(?:Section|SECTION)\s+(\d+)[\.\s—–-]+(.+?)(?=(?:Section|SECTION)\s+\d+|$)/gs;
+        function extractSectionsFromToc(items: typeof toc): void {
+          for (const item of items) {
+            if (item.type === 'section' && item.id) {
+              const secMatch = item.id.match(/(?:^|__)sec_(\d+)/);
+              if (secMatch) {
+                const sectionNum = secMatch[1];
+                const sectionEl = $(`#${item.id}`);
+                if (sectionEl.length > 0) {
+                  const content = sectionEl.text().replace(/\s+/g, ' ').trim();
+                  // Remove the heading text from the content
+                  const headingText = item.title || '';
+                  const cleanContent = content.replace(headingText, '').trim();
+
+                  if (cleanContent) {
+                    provisions.push({
+                      provision_ref: `s${sectionNum}`,
+                      section: sectionNum,
+                      title: (item.heading || '').trim(),
+                      content: cleanContent,
+                    });
+                  }
+                }
+              }
+            }
+            if (item.children) {
+              extractSectionsFromToc(item.children);
+            }
+          }
+        }
+
+        extractSectionsFromToc(toc);
+      } catch { /* ignore parse errors */ }
+    }
+  }
+
+  // Final fallback: regex-based extraction
+  if (provisions.length === 0) {
+    const fullText = $('body').text();
+    const sectionPattern = /(?:Section|SECTION)\s+(\d+)[\.\s\u2014\u2013-]+(.+?)(?=(?:Section|SECTION)\s+\d+|$)/gs;
     let sectionMatch: RegExpExecArray | null;
 
     while ((sectionMatch = sectionPattern.exec(fullText)) !== null) {
@@ -188,7 +311,6 @@ export function parseActContent(
       const sectionBody = sectionMatch[2].trim();
       const provisionRef = `s${sectionNum}`;
 
-      // Split into title and content at first period or newline
       const titleEndIdx = sectionBody.search(/[.\n]/);
       const sectionTitle = titleEndIdx > 0 ? sectionBody.substring(0, titleEndIdx).trim() : '';
       const content = titleEndIdx > 0 ? sectionBody.substring(titleEndIdx + 1).trim() : sectionBody;
@@ -196,8 +318,6 @@ export function parseActContent(
       if (content.trim()) {
         provisions.push({
           provision_ref: provisionRef,
-          part: currentPart,
-          chapter: currentChapter,
           section: sectionNum,
           title: sectionTitle,
           content: content.trim(),
@@ -205,15 +325,6 @@ export function parseActContent(
       }
     }
   }
-
-  // Extract part/chapter context by looking at heading elements
-  $('h2, h3, h4, .part-heading, .chapter-heading').each((_i, el) => {
-    const text = $(el).text().trim();
-    const partMatch = text.match(/^PART\s+([IVXLCDM]+|\d+)/i);
-    const chapterMatch = text.match(/^CHAPTER\s+([IVXLCDM]+|\d+)/i);
-    if (partMatch) currentPart = text;
-    if (chapterMatch) currentChapter = text;
-  });
 
   return {
     id: `act-${actNumber}-${year}`,
@@ -223,8 +334,8 @@ export function parseActContent(
     act_number: actNumber,
     year,
     status: 'in_force',
-    issued_date: `${year}-01-01`,
-    url: `https://ghalii.org/gh/legislation/act/${year}/${actNumber}`,
+    issued_date: issuedDate,
+    url: canonicalUrl,
     provisions,
     definitions,
   };
@@ -234,60 +345,13 @@ export function parseActContent(
 // Internal helpers
 // ─────────────────────────────────────────────────────────────────────────────
 
-function extractSectionTitle($: cheerio.CheerioAPI, anchor: cheerio.Cheerio<cheerio.Element>): string {
-  // Look for heading text near the anchor
-  const parent = anchor.parent();
-  const heading = parent.find('b, strong, .section-title, h4, h5').first();
-  if (heading.length > 0) {
-    return heading.text().replace(/\s+/g, ' ').trim();
-  }
-
-  // Try the text of the parent element up to the first period
-  const parentText = parent.text().trim();
-  const firstLine = parentText.split(/[.\n]/)[0] ?? '';
-  // Remove the section number prefix
-  return firstLine.replace(/^\d+\.\s*/, '').trim();
-}
-
-function extractSectionContent($: cheerio.CheerioAPI, anchor: cheerio.Cheerio<cheerio.Element>): string {
-  const parts: string[] = [];
-
-  // Get text from parent and following siblings until next section anchor
-  let current = anchor.parent();
-
-  // Collect text from the parent element
-  const parentText = current.text().replace(/\s+/g, ' ').trim();
-  if (parentText) {
-    parts.push(parentText);
-  }
-
-  // Walk through following siblings
-  let next = current.next();
-  let safety = 0;
-  while (next.length > 0 && safety < 100) {
-    // Stop if we hit another section anchor
-    if (next.find('a[name^="sec_"], a[id^="sec_"]').length > 0) break;
-    if (next.is('a[name^="sec_"], a[id^="sec_"]')) break;
-
-    const text = next.text().replace(/\s+/g, ' ').trim();
-    if (text) {
-      parts.push(text);
-    }
-
-    next = next.next();
-    safety++;
-  }
-
-  return parts.join(' ').replace(/\s+/g, ' ').trim();
-}
-
 function extractDefinitionsFromContent(
   content: string,
   definitions: ParsedDefinition[],
   sourceProvision: string,
 ): void {
   // Match patterns like: "term" means ... ;
-  const defPattern = /["\u201C]([^"\u201D]+)["\u201D]\s+means\s+([^;]+);/gi;
+  const defPattern = /[\u201C"\u201E]([^\u201D"\u201F]+)[\u201D"\u201F]\s+means\s+([^;]+);/gi;
   let match: RegExpExecArray | null;
 
   while ((match = defPattern.exec(content)) !== null) {

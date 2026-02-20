@@ -65,17 +65,19 @@ export async function fetchWithRateLimit(url: string, maxRetries = 3): Promise<F
 
 /**
  * Fetch the act index page from GhanaLII.
- * Paginates through results at /gh/legislation/act/
+ * Uses /legislation/ endpoint with pagination (?page=N).
+ * GhanaLII uses Akoma Ntoso URLs: /akn/gh/act/YYYY/NNN/eng@DATE
  */
 export async function fetchActIndex(page = 0): Promise<FetchResult> {
   const url = page === 0
-    ? `${BASE_URL}/gh/legislation/act/`
-    : `${BASE_URL}/gh/legislation/act/?page=${page}`;
+    ? `${BASE_URL}/legislation/`
+    : `${BASE_URL}/legislation/?page=${page}`;
   return fetchWithRateLimit(url);
 }
 
 /**
  * Fetch an individual act content page from GhanaLII.
+ * Accepts AKN URLs like /akn/gh/act/2020/1038/eng@2020-12-29
  */
 export async function fetchActContent(actUrl: string): Promise<FetchResult> {
   const url = actUrl.startsWith('http') ? actUrl : `${BASE_URL}${actUrl}`;
