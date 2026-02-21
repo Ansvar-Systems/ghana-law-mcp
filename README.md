@@ -123,6 +123,28 @@ Once connected, just ask naturally:
 
 ---
 
+## Key Legislation Covered
+
+| Act | Year | Act Number | Significance |
+|-----|------|-----------|-------------|
+| **Data Protection Act** | 2012 | Act 843 | One of the first comprehensive data protection laws in Africa; established the Data Protection Commission |
+| **Cybersecurity Act** | 2020 | Act 1038 | Established the Cyber Security Authority as a dedicated national cybersecurity body |
+| **Electronic Transactions Act** | 2008 | Act 772 | Governs electronic commerce, electronic signatures, and electronic records |
+| **Companies Act** | 2019 | Act 992 | Modern company law framework replacing the Companies Code 1963 (Act 179) |
+| **National Communications Authority Act** | 2008 | Act 769 | Regulates telecommunications and electronic communications sector |
+| **Right to Information Act** | 2019 | Act 989 | Enacted after a 20-year advocacy campaign; provides access to government-held information |
+| **Constitution of Ghana** | 1992 | -- | Supreme law; Article 18(2) guarantees the right to privacy |
+
+---
+
+## Deployment Tier
+
+**SMALL** -- Single tier, bundled SQLite database shipped with the npm package.
+
+**Estimated database size:** ~50-100 MB (Ghana has a smaller legal corpus compared to larger African jurisdictions)
+
+---
+
 ## Available Tools (13)
 
 ### Core Legal Research Tools (8)
