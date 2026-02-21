@@ -1,66 +1,86 @@
-# Ghana Law MCP
+# Ghanaian Law MCP Server
 
-[![npm](https://img.shields.io/npm/v/@ansvar/ghana-law-mcp)](https://www.npmjs.com/package/@ansvar/ghana-law-mcp)
-[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
-[![CI](https://github.com/Ansvar-Systems/ghana-law-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/Ansvar-Systems/ghana-law-mcp/actions/workflows/ci.yml)
-[![MCP Registry](https://img.shields.io/badge/MCP-Registry-green)](https://registry.modelcontextprotocol.io/)
-[![OpenSSF Scorecard](https://img.shields.io/ossf-scorecard/github.com/Ansvar-Systems/ghana-law-mcp)](https://securityscorecards.dev/viewer/?uri=github.com/Ansvar-Systems/ghana-law-mcp)
+**The GhanaLII alternative for the AI age.**
 
-A Model Context Protocol (MCP) server providing comprehensive access to Ghanaian legislation, including data protection, cybersecurity, electronic transactions, companies, and communications law with full-text search.
+[![npm version](https://badge.fury.io/js/%40ansvar/ghana-law-mcp.svg)](https://www.npmjs.com/package/@ansvar/ghana-law-mcp)
+[![MCP Registry](https://img.shields.io/badge/MCP-Registry-blue)](https://registry.modelcontextprotocol.io)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![GitHub stars](https://img.shields.io/github/stars/Ansvar-Systems/Ghana-law-mcp?style=social)](https://github.com/Ansvar-Systems/Ghana-law-mcp)
+[![CI](https://github.com/Ansvar-Systems/Ghana-law-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/Ansvar-Systems/Ghana-law-mcp/actions/workflows/ci.yml)
 
-## Deployment Tier
+Query **Ghanaian legislation** -- covering data protection, cybersecurity, corporate law, and more -- directly from Claude, Cursor, or any MCP-compatible client.
 
-**SMALL** -- Single tier, bundled SQLite database shipped with the npm package.
+If you're building legal tech, compliance tools, or doing Ghanaian legal research, this is your verified reference database.
 
-**Estimated database size:** ~50-100 MB (Ghana has a smaller legal corpus compared to larger African jurisdictions)
+Built by [Ansvar Systems](https://ansvar.eu) -- Stockholm, Sweden
 
-## Key Legislation Covered
+---
 
-| Act | Year | Act Number | Significance |
-|-----|------|-----------|-------------|
-| **Data Protection Act** | 2012 | Act 843 | One of the first comprehensive data protection laws in Africa; established the Data Protection Commission |
-| **Cybersecurity Act** | 2020 | Act 1038 | Established the Cyber Security Authority as a dedicated national cybersecurity body |
-| **Electronic Transactions Act** | 2008 | Act 772 | Governs electronic commerce, electronic signatures, and electronic records |
-| **Companies Act** | 2019 | Act 992 | Modern company law framework replacing the Companies Code 1963 (Act 179) |
-| **National Communications Authority Act** | 2008 | Act 769 | Regulates telecommunications and electronic communications sector |
-| **Right to Information Act** | 2019 | Act 989 | Enacted after a 20-year advocacy campaign; provides access to government-held information |
-| **Constitution of Ghana** | 1992 | -- | Supreme law; Article 18(2) guarantees the right to privacy |
+## Why This Exists
 
-## Regulatory Context
+Ghanaian legal research is scattered across official government databases, commercial legal platforms, and institutional archives. Whether you're:
+- A **lawyer** validating citations in a brief or contract
+- A **compliance officer** checking if a statute is still in force
+- A **legal tech developer** building tools on Ghanaian law
+- A **researcher** tracing legislative history
 
-- **Data Protection Supervisory Authority:** Data Protection Commission (DPC), established under the Data Protection Act 2012 (Act 843)
-- **Ghana was one of the first African countries** to enact a comprehensive data protection law (2012), predating the EU GDPR by six years
-- The DPA 2012 was influenced by the EU Data Protection Directive 95/46/EC and shares many principles later codified in the GDPR
-- **Cyber Security Authority** was established under the Cybersecurity Act 2020 (Act 1038) as a dedicated national cybersecurity body
-- Ghana is a signatory to the African Union Convention on Cyber Security and Personal Data Protection (Malabo Convention, 2014)
-- Ghana uses a common law legal system inherited from British colonial administration
-- English is Ghana's official and sole legal language
+...you shouldn't need dozens of browser tabs and manual PDF cross-referencing. Ask Claude. Get the exact provision. With context.
 
-## Data Sources
+This MCP server makes Ghanaian law **searchable, cross-referenceable, and AI-readable**.
 
-| Source | Authority | Method | Update Frequency | License | Coverage |
-|--------|-----------|--------|-----------------|---------|----------|
-| [GhanaLII](https://ghalii.org) | AfricanLII | HTML Scrape | On change | Free Access (AfricanLII) | All Acts of Parliament, Legislative Instruments, Constitutional Instruments, superior court decisions |
-| [Laws of Ghana](https://www.ghana.gov.gh) | Ghana Publishing Company | PDF | On change | Government Public Data | Gazette versions of Acts, Legislative Instruments, Constitutional Instruments |
-| [Data Protection Commission](https://dpc.org.gh) | DPC, Republic of Ghana | HTML Scrape | On change | Government Public Data | DPC guidelines, registration requirements, enforcement notices |
+---
 
-> Full provenance metadata: [`sources.yml`](./sources.yml)
+## Quick Start
 
-## Installation
+### Use Remotely (No Install Needed)
 
-```bash
-npm install -g @ansvar/ghana-law-mcp
+> Connect directly to the hosted version -- zero dependencies, nothing to install.
+
+**Endpoint:** `https://ghana-law-mcp.vercel.app/mcp`
+
+| Client | How to Connect |
+|--------|---------------|
+| **Claude.ai** | Settings > Connectors > Add Integration > paste URL |
+| **Claude Code** | `claude mcp add ghana-law --transport http https://ghana-law-mcp.vercel.app/mcp` |
+| **Claude Desktop** | Add to config (see below) |
+| **GitHub Copilot** | Add to VS Code settings (see below) |
+
+**Claude Desktop** -- add to `claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "ghana-law": {
+      "type": "url",
+      "url": "https://ghana-law-mcp.vercel.app/mcp"
+    }
+  }
+}
 ```
 
-## Usage
+**GitHub Copilot** -- add to VS Code `settings.json`:
 
-### As stdio MCP server
-
-```bash
-ghana-law-mcp
+```json
+{
+  "github.copilot.chat.mcp.servers": {
+    "ghana-law": {
+      "type": "http",
+      "url": "https://ghana-law-mcp.vercel.app/mcp"
+    }
+  }
+}
 ```
 
-### In Claude Desktop / MCP client configuration
+### Use Locally (npm)
+
+```bash
+npx @ansvar/ghana-law-mcp
+```
+
+**Claude Desktop** -- add to `claude_desktop_config.json`:
+
+**macOS:** `~/Library/Application Support/Claude/claude_desktop_config.json`
+**Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
 
 ```json
 {
@@ -73,60 +93,245 @@ ghana-law-mcp
 }
 ```
 
-## Available Tools
+**Cursor / VS Code:**
 
-| Tool | Description |
-|------|-------------|
-| `get_provision` | Retrieve a specific section/article from a Ghanaian Act |
-| `search_legislation` | Full-text search across all Ghanaian legislation |
-| `get_provision_eu_basis` | Cross-reference lookup for international framework relationships (GDPR, Malabo Convention, etc.) |
-
-## Development
-
-```bash
-# Install dependencies
-npm install
-
-# Build
-npm run build
-
-# Run tests
-npm test
-
-# Run contract tests
-npm run test:contract
-
-# Run all validation
-npm run validate
-
-# Build database from sources
-npm run build:db
-
-# Start server
-npm start
+```json
+{
+  "mcp.servers": {
+    "ghana-law": {
+      "command": "npx",
+      "args": ["-y", "@ansvar/ghana-law-mcp"]
+    }
+  }
+}
 ```
-
-## Contract Tests
-
-This MCP includes 12 golden contract tests covering:
-- 3 article retrieval tests (Data Protection Act 2012, Cybersecurity Act 2020, Companies Act 2019)
-- 3 search tests (personal data, cybersecurity, electronic transaction)
-- 2 citation roundtrip tests (official URL patterns)
-- 2 cross-reference tests (GDPR/EU Directive 95/46 relationship, AU Malabo Convention)
-- 2 negative tests (non-existent Act, malformed section)
-
-Run with: `npm run test:contract`
-
-## Security
-
-See [SECURITY.md](./SECURITY.md) for vulnerability disclosure policy.
-
-Report data errors: [Open an issue](https://github.com/Ansvar-Systems/ghana-law-mcp/issues/new?template=data-error.md)
-
-## License
-
-Apache-2.0 -- see [LICENSE](./LICENSE)
 
 ---
 
-Built by [Ansvar Systems](https://ansvar.eu) -- Cybersecurity compliance through AI-powered analysis.
+## Example Queries
+
+Once connected, just ask naturally:
+
+- *"What does the Ghanaian data protection law say about consent?"*
+- *"Search for cybersecurity requirements in Ghanaian legislation"*
+- *"Is this statute still in force?"*
+- *"Find provisions about personal data in Ghanaian law"*
+- *"What EU directives does this Ghanaian law implement?"*
+- *"Which Ghanaian laws implement the GDPR?"*
+- *"Validate this legal citation"*
+- *"Build a legal stance on data breach notification requirements"*
+
+---
+
+## Available Tools (13)
+
+### Core Legal Research Tools (8)
+
+| Tool | Description |
+|------|-------------|
+| `search_legislation` | FTS5 full-text search across all provisions with BM25 ranking |
+| `get_provision` | Retrieve specific provision by statute + chapter/section |
+| `check_currency` | Check if statute is in force, amended, or repealed |
+| `validate_citation` | Validate citation against database (zero-hallucination check) |
+| `build_legal_stance` | Aggregate citations from statutes for a legal topic |
+| `format_citation` | Format citations per Ghanaian conventions (full/short/pinpoint) |
+| `list_sources` | List all available statutes with metadata |
+| `about` | Server info, capabilities, and coverage summary |
+
+### EU/International Law Integration Tools (5)
+
+| Tool | Description |
+|------|-------------|
+| `get_eu_basis` | Get EU directives/regulations for Ghanaian statute |
+| `get_ghana_law_implementations` | Find Ghanaian laws implementing EU act |
+| `search_eu_implementations` | Search EU documents with Ghanaian implementation counts |
+| `get_provision_eu_basis` | Get EU law references for specific provision |
+| `validate_eu_compliance` | Check implementation status of EU directives |
+
+---
+
+## Why This Works
+
+**Verbatim Source Text (No LLM Processing):**
+- All statute text is ingested from official Ghanaian government sources
+- Provisions are returned **unchanged** from SQLite FTS5 database rows
+- Zero LLM summarization or paraphrasing -- the database contains regulation text, not AI interpretations
+
+**Smart Context Management:**
+- Search returns ranked provisions with BM25 scoring (safe for context)
+- Provision retrieval gives exact text by statute identifier + chapter/section
+- Cross-references help navigate without loading everything at once
+
+**Technical Architecture:**
+```
+Official Sources --> Parse --> SQLite --> FTS5 snippet() --> MCP response
+                     ^                       ^
+              Provision parser         Verbatim database query
+```
+
+### Traditional Research vs. This MCP
+
+| Traditional Approach | This MCP Server |
+|---------------------|-----------------|
+| Search official databases by statute number | Search by plain language |
+| Navigate multi-chapter statutes manually | Get the exact provision with context |
+| Manual cross-referencing between laws | `build_legal_stance` aggregates across sources |
+| "Is this statute still in force?" --> check manually | `check_currency` tool --> answer in seconds |
+| Find EU basis --> dig through EUR-Lex | `get_eu_basis` --> linked EU directives instantly |
+| No API, no integration | MCP protocol --> AI-native |
+
+---
+
+## Data Sources & Freshness
+
+All content is sourced from authoritative Ghanaian legal databases:
+
+- **[Ghana Publishing Company](https://ghanalegal.com)** -- Official Ghanaian government legal database
+
+**Verified data only** -- every citation is validated against official sources. Zero LLM-generated content.
+
+---
+
+## Security
+
+This project uses multiple layers of automated security scanning:
+
+| Scanner | What It Does | Schedule |
+|---------|-------------|----------|
+| **CodeQL** | Static analysis for security vulnerabilities | Weekly + PRs |
+| **Semgrep** | SAST scanning (OWASP top 10, secrets, TypeScript) | Every push |
+| **Gitleaks** | Secret detection across git history | Every push |
+| **Trivy** | CVE scanning on filesystem and npm dependencies | Daily |
+| **Socket.dev** | Supply chain attack detection | PRs |
+| **Dependabot** | Automated dependency updates | Weekly |
+
+See [SECURITY.md](SECURITY.md) for the full policy and vulnerability reporting.
+
+---
+
+## Important Disclaimers
+
+### Legal Advice
+
+> **THIS TOOL IS NOT LEGAL ADVICE**
+>
+> Statute text is sourced from official Ghanaian government publications. However:
+> - This is a **research tool**, not a substitute for professional legal counsel
+> - **Court case coverage is limited** -- do not rely solely on this for case law research
+> - **Verify critical citations** against primary sources for court filings
+> - **EU cross-references** are extracted from statute text, not EUR-Lex full text
+
+**Before using professionally, read:** [DISCLAIMER.md](DISCLAIMER.md) | [SECURITY.md](SECURITY.md)
+
+### Client Confidentiality
+
+Queries go through the Claude API. For privileged or confidential matters, use on-premise deployment.
+
+---
+
+## Development
+
+### Setup
+
+```bash
+git clone https://github.com/Ansvar-Systems/Ghana-law-mcp
+cd Ghana-law-mcp
+npm install
+npm run build
+npm test
+```
+
+### Running Locally
+
+```bash
+npm run dev                                       # Start MCP server
+npx @anthropic/mcp-inspector node dist/index.js   # Test with MCP Inspector
+```
+
+---
+
+## Related Projects: Complete Compliance Suite
+
+This server is part of **Ansvar's Compliance Suite** -- MCP servers that work together for end-to-end compliance coverage:
+
+### [@ansvar/eu-regulations-mcp](https://github.com/Ansvar-Systems/EU_compliance_MCP)
+**Query 49 EU regulations directly from Claude** -- GDPR, AI Act, DORA, NIS2, MiFID II, eIDAS, and more. Full regulatory text with article-level search. `npx @ansvar/eu-regulations-mcp`
+
+### [@ansvar/us-regulations-mcp](https://github.com/Ansvar-Systems/US_Compliance_MCP)
+**Query US federal and state compliance laws** -- HIPAA, CCPA, SOX, GLBA, FERPA, and more. `npx @ansvar/us-regulations-mcp`
+
+### [@ansvar/security-controls-mcp](https://github.com/Ansvar-Systems/security-controls-mcp)
+**Query 261 security frameworks** -- ISO 27001, NIST CSF, SOC 2, CIS Controls, SCF, and more. `npx @ansvar/security-controls-mcp`
+
+### [@ansvar/automotive-cybersecurity-mcp](https://github.com/Ansvar-Systems/Automotive-MCP)
+**Query UNECE R155/R156 and ISO 21434** -- Automotive cybersecurity compliance. `npx @ansvar/automotive-cybersecurity-mcp`
+
+**30+ national law MCPs** covering Australia, Brazil, Canada, China, Denmark, Finland, France, Germany, Ghana, Iceland, India, Ireland, Israel, Italy, Japan, Kenya, Netherlands, Nigeria, Norway, Singapore, Slovenia, South Korea, Sweden, Switzerland, Thailand, UAE, UK, and more.
+
+---
+
+## Contributing
+
+Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+Priority areas:
+- Court case law expansion
+- EU cross-reference improvements
+- Historical statute versions and amendment tracking
+- Additional statutory instruments and regulations
+
+---
+
+## Roadmap
+
+- [x] Core statute database with FTS5 search
+- [x] EU/international law cross-references
+- [x] Vercel Streamable HTTP deployment
+- [x] npm package publication
+- [ ] Court case law expansion
+- [ ] Historical statute versions (amendment tracking)
+- [ ] Preparatory works / explanatory memoranda
+- [ ] Lower court and tribunal decisions
+
+---
+
+## Citation
+
+If you use this MCP server in academic research:
+
+```bibtex
+@software{ghana_law_mcp_2025,
+  author = {Ansvar Systems AB},
+  title = {Ghanaian Law MCP Server: AI-Powered Legal Research Tool},
+  year = {2025},
+  url = {https://github.com/Ansvar-Systems/Ghana-law-mcp},
+  note = {Ghanaian legal database with full-text search and EU cross-references}
+}
+```
+
+---
+
+## License
+
+Apache License 2.0. See [LICENSE](./LICENSE) for details.
+
+### Data Licenses
+
+- **Statutes & Legislation:** Ghanaian Government (public domain)
+- **EU Metadata:** EUR-Lex (EU public domain)
+
+---
+
+## About Ansvar Systems
+
+We build AI-accelerated compliance and legal research tools for the global market. This MCP server started as our internal reference tool -- turns out everyone building compliance tools has the same research frustrations.
+
+So we're open-sourcing it.
+
+**[ansvar.eu](https://ansvar.eu)** -- Stockholm, Sweden
+
+---
+
+<p align="center">
+  <sub>Built with care in Stockholm, Sweden</sub>
+</p>
