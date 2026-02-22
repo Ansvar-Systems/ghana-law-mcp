@@ -7,7 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.0] - 2026-XX-XX
+## [1.1.0] - 2026-02-22
+### Added
+- `data/census.json` — full corpus census (30 laws, 409 provisions)
+- Streamable HTTP transport in `server.json` (`https://ghana-law-mcp.vercel.app/mcp`)
+- Dual transport support (stdio + streamable-http) in MCP Registry metadata
+
+### Changed
+- Bumped version to 1.1.0 across `package.json` and `server.json`
+
+## [1.0.0] - 2026-02-22
 ### Added
 - Initial release of Ghana Law MCP
 - `search_legislation` tool for full-text search across all Ghanaian statutes
@@ -23,5 +32,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - npm package with stdio transport
 - MCP Registry publishing
 
-[Unreleased]: https://github.com/Ansvar-Systems/ghana-law-mcp/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/Ansvar-Systems/ghana-law-mcp/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/Ansvar-Systems/ghana-law-mcp/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/Ansvar-Systems/ghana-law-mcp/releases/tag/v1.0.0
