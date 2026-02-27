@@ -1,0 +1,853 @@
+{
+  "id": "act-1052-2020",
+  "type": "act",
+  "title": "Borrowers and Lenders Act, 2020",
+  "short_name": "BL 2020",
+  "act_number": 1052,
+  "year": 2020,
+  "status": "in_force",
+  "issued_date": "2020-12-29",
+  "url": "https://ghalii.org/akn/gh/act/2020/1052",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "Application with respect to security interest",
+      "content": "(1) This Act applies to a security interest other than a security interest mentioned in subsection (3), and includes This Act applies to a security interest other than a security interest mentioned in subsection (3), and includes a credit agreement that provides for a security interest in property; a credit agreement that provides for a security interest in property; the creation of a security interest, the effectiveness of a security interest against third parties and priority of a security interest in tangible property located in this country; the creation of a security interest, the effectiveness of a security interest against third parties and priority of a security interest in tangible property located in this country; security interest in which the tangible property is of a type ordinarily used in more than one country if the borrower is located in this country; security interest in which the tangible property is of a type ordinarily used in more than one country if the borrower is located in this country; the creation of a security interest, the effectiveness of a security interest against third parties and priority of a security interest in intangible property, if the borrower is located in this country; the creation of a security interest, the effectiveness of a security interest against third parties and priority of a security interest in intangible property, if the borrower is located in this country; issues relating to the enforcement of a security interest in intangible property if the borrower is located in this country; issues relating to the enforcement of a security interest in intangible property if the borrower is located in this country; issues relating to the enforcement of a security interest in intangible property if the enforcement takes place in this country; issues relating to the enforcement of a security interest in intangible property if the enforcement takes place in this country; the creation of a security interest, effectiveness of a security interest against third parties and priority of a security interest in a deposit account if a bank, specialised deposit-taking institution or other financial institution that maintains the relevant deposit account has a place of business in this country; the creation of a security interest, effectiveness of a security interest against third parties and priority of a security interest in a deposit account if a bank, specialised deposit-taking institution or other financial institution that maintains the relevant deposit account has a place of business in this country; the creation of a security interest, the effectiveness of registration of a security interest against third parties in proceeds arising from the disposition of collateral by a borrower if this Act governs the security interest in the original collateral; the creation of a security interest, the effectiveness of registration of a security interest against third parties in proceeds arising from the disposition of collateral by a borrower if this Act governs the security interest in the original collateral; the effectiveness of a security interest against third parties, priority and enforcement of security interests in fixtures created under the Mortgages Act, 1972 (N.R.C.D. 96) or the Home Mortgage Finance Act, 2008 (Act 770); and the effectiveness of a security interest against third parties, priority and enforcement of security interests in fixtures created under the Mortgages Act, 1972 (N.R.C.D. 96) or the Home Mortgage Finance Act, 2008 (Act 770); and the effectiveness of a security interest against third parties, priority and enforcement of mortgages and other interests in immovable property, including a transfer of rental payments and a right to payment that arises in connection with an interest in immovable property created under the Home Mortgage Finance Act, 2008 (Act 770) or the Mortgages Act, 1972 (N.R.C.D. 96). the effectiveness of a security interest against third parties, priority and enforcement of mortgages and other interests in immovable property, including a transfer of rental payments and a right to payment that arises in connection with an interest in immovable property created under the Home Mortgage Finance Act, 2008 (Act 770) or the Mortgages Act, 1972 (N.R.C.D. 96). (2) For the purposes of this section, a borrower is located in this country if the borrower For the purposes of this section, a borrower is located in this country if the borrower is ordinarily resident in this country; is ordinarily resident in this country; has a place of business in this country; or has a place of business in this country; or has a place of business in more than one country, but the principal office of the borrower is in this country. has a place of business in more than one country, but the principal office of the borrower is in this country. (3) This Act does not apply to This Act does not apply to a security interest in a security interest in a ship as defined in section 481 of the Ghana Shipping Act, 2003, (Act 645); or an aircraft as defined in the Aircraft Accident and Serious Incident Regulations, 2019 (L.I. 2375); a ship as defined in section 481 of the Ghana Shipping Act, 2003, (Act 645); or an aircraft as defined in the Aircraft Accident and Serious Incident Regulations, 2019 (L.I. 2375); payment rights arising under or from financial contracts governed by netting agreements as determined by the Bank; payment rights arising under or from financial contracts governed by netting agreements as determined by the Bank; assignment of wages and salaries; assignment of wages and salaries; pension and other similar benefits as provided in the National Pensions Act, 2008 (Act 766) and other applicable legislation; pension and other similar benefits as provided in the National Pensions Act, 2008 (Act 766) and other applicable legislation; a contract of annuity or life insurance policy; a contract of annuity or life insurance policy; deposited securities as defined in section 60 of the Central Securities Depository Act, 2007 (Act 733); and deposited securities as defined in section 60 of the Central Securities Depository Act, 2007 (Act 733); and a transfer of a right to damages in tort not related to commercial activity; and a transfer of a right to damages in tort not related to commercial activity; and a lender that is subject to the supervision of the Bank where the loan amount advanced by the lender under the credit agreement is less than an amount of five hundred Ghana Cedis or an amount determined by the Bank periodically and published in the Gazette and in two daily newspapers of national circulation. a lender that is subject to the supervision of the Bank where the loan amount advanced by the lender under the credit agreement is less than an amount of five hundred Ghana Cedis or an amount determined by the Bank periodically and published in the Gazette and in two daily newspapers of national circulation. (4) Despite subparagraph (iv) of paragraph (a) of subsection (3), this Act shall apply where a security interest is created in accordance with subsection (2) of section 103 of the National Pensions Act, 2008 (Act 766). Despite subparagraph (iv) of paragraph (a) of subsection (3), this Act shall apply where a security interest is created in accordance with subsection (2) of section 103 of the National Pensions Act, 2008 (Act 766). (5) Nothing in this Act affects the right of a lender to exercise the right of set-off. Nothing in this Act affects the right of a lender to exercise the right of set-off."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "Application with respect to other credit agreements",
+      "content": "(1) For the purpose of credit agreements other than credit agreements under section 1, this Act applies to For the purpose of credit agreements other than credit agreements under section 1, this Act applies to a credit agreement whether or not the lender or borrower a credit agreement whether or not the lender or borrower resides or has the principal office within the country; resides or has the principal office within the country; is an institution that belongs to the State; is an institution that belongs to the State; is an entity controlled by an institution that belongs to the State; or is an entity controlled by an institution that belongs to the State; or is an entity created by an enactment; is an entity created by an enactment; the rights or duties of a borrower or lender before the execution of a credit agreement; and the rights or duties of a borrower or lender before the execution of a credit agreement; and every transaction, act or omission under a credit agreement. every transaction, act or omission under a credit agreement. (2) This Act does not affect a right that a borrower may have under an enactment that offers consumer protection. This Act does not affect a right that a borrower may have under an enactment that offers consumer protection."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "Creation of security interest",
+      "content": "(1) A security interest is created by a transaction that in substance secures payment or performance of an obligation, without regard to the form of the transaction, where a borrower or a third party who has title to the collateral willingly creates a security interest in favour of the lender. A security interest is created by a transaction that in substance secures payment or performance of an obligation, without regard to the form of the transaction, where a borrower or a third party who has title to the collateral willingly creates a security interest in favour of the lender. (2) Despite subsection (1), this Act does not apply to a security interest in a deposited Warehouse Receipt as provided for under the Securities Industry Act, 2016 (Act 929). Despite subsection (1), this Act does not apply to a security interest in a deposited Warehouse Receipt as provided for under the Securities Industry Act, 2016 (Act 929)."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "Credit agreement",
+      "content": "(1) An agreement is a credit agreement if An agreement is a credit agreement if the agreement provides for or is a combination of the following: the agreement provides for or is a combination of the following: a credit facility; a credit facility; a credit transaction; or a credit transaction; or a credit guarantee; or a credit guarantee; or the agreement relates to a transaction that creates a security interest in a property to secure the performance of a present or future obligation, determined or determinable. the agreement relates to a transaction that creates a security interest in a property to secure the performance of a present or future obligation, determined or determinable. (2) For purposes of subsection (1), an agreement provides for a credit facility if in that agreement For purposes of subsection (1), an agreement provides for a credit facility if in that agreement the lender undertakes to lend a stipulated amount to the lender undertakes to lend a stipulated amount to the borrower; or the borrower; or another person on behalf of the borrower, within a specified period or at specified intervals agreed on by the lender and the borrower; or another person on behalf of the borrower, within a specified period or at specified intervals agreed on by the lender and the borrower; or the lender undertakes to the lender undertakes to defer the obligation of the borrower to repay a stipulated amount lent by the lender to the borrower; or defer the obligation of the borrower to repay a stipulated amount lent by the lender to the borrower; or send a bill to the borrower periodically in respect of a stipulated amount, whether or not the amount is a loan or a fee send a bill to the borrower periodically in respect of a stipulated amount, whether or not the amount is a loan or a fee whether or not an interest is payable to the lender in respect of the arrangements. (3) For purposes of subsection (1), a credit transaction includes an agreement that provides for For purposes of subsection (1), a credit transaction includes an agreement that provides for a pawn transaction; a pawn transaction; an instalment agreement; an instalment agreement; a charge on chattels; a charge on chattels; a finance lease; a finance lease; hire purchase; hire purchase; a sale with reservation of title; and a sale with reservation of title; and an outright assignment of accounts receivable. an outright assignment of accounts receivable. (4) An agreement provides for An agreement provides for a credit guarantee if in that agreement a third party promises to satisfy on demand by the lender to whom the guarantee is made, an obligation of the borrower regarding a credit facility or credit transaction to which this Act applies; or a credit guarantee if in that agreement a third party promises to satisfy on demand by the lender to whom the guarantee is made, an obligation of the borrower regarding a credit facility or credit transaction to which this Act applies; or a secured credit guarantee if in that agreement a third party promises to satisfy on demand by the lender to whom the guarantee is made, an obligation of the borrower in a credit agreement to which this Act applies, and in addition, creates a security interest in property to secure the performance of the promise of the third party. a secured credit guarantee if in that agreement a third party promises to satisfy on demand by the lender to whom the guarantee is made, an obligation of the borrower in a credit agreement to which this Act applies, and in addition, creates a security interest in property to secure the performance of the promise of the third party."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "Execution of a credit agreement",
+      "content": "A credit agreement that creates a security interest in property shall be executed in writing, and the credit agreement shall consist of one or more tangible documents or electronic records which, taken together, establish the intent of the parties. A credit agreement that creates a security interest in property shall be executed in writing, and the credit agreement shall consist of one or more tangible documents or electronic records which, taken together, establish the intent of the parties."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "Security interest between the borrower and lender",
+      "content": "(1) Despite section 22, a security interest created by a credit agreement, is effective between the parties to the agreement without registration under this Act, but the right of the lender to enforce the security interest is subject to the rights of any other lender or person entitled to priority under this Act. Despite section 22, a security interest created by a credit agreement, is effective between the parties to the agreement without registration under this Act, but the right of the lender to enforce the security interest is subject to the rights of any other lender or person entitled to priority under this Act. (2) A credit agreement shall identify A credit agreement shall identify the lender; the lender; the borrower; the borrower; the collateral; and the collateral; and the secured obligation. the secured obligation. (3) A security interest in property that the borrower acquires after the borrower has entered into a credit agreement shall become effective without a written consent of the borrower or any further act of the borrower A security interest in property that the borrower acquires after the borrower has entered into a credit agreement shall become effective without a written consent of the borrower or any further act of the borrower when the borrower acquires rights to the property; and when the borrower acquires rights to the property; and if the property falls under the collateral description in the credit agreement. if the property falls under the collateral description in the credit agreement. (4) A borrower may provide a written consent for the security interest to extend to movable property which includes consumer goods, acquired after a credit agreement has been entered into. A borrower may provide a written consent for the security interest to extend to movable property which includes consumer goods, acquired after a credit agreement has been entered into."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "Non-transfer of title",
+      "content": "A security interest in property shall not operate as a transfer of title in the property from the borrower to the lender. A security interest in property shall not operate as a transfer of title in the property from the borrower to the lender."
+    },
+    {
+      "provision_ref": "s8",
+      "section": "8",
+      "title": "Sufficient description of collateral",
+      "content": "(1) A credit agreement shall contain a description of the collateral that reasonably identifies the property to be provided as collateral. A credit agreement shall contain a description of the collateral that reasonably identifies the property to be provided as collateral. (2) For the purposes of this section, the description of the collateral may be generic or specific. For the purposes of this section, the description of the collateral may be generic or specific. (3) For the purpose of this section, a description in the form of the expression- “all inventory”, “all receivables” or “all movable property” - of the borrower is sufficient. For the purpose of this section, a description in the form of the expression- “all inventory”, “all receivables” or “all movable property” - of the borrower is sufficient. (4) Despite anything to the contrary in this section the description of an immovable property shall Despite anything to the contrary in this section the description of an immovable property shall be specific; and be specific; and include include the location, the location, the size, and the size, and the geographical coordinates of the immovable property. the geographical coordinates of the immovable property."
+    },
+    {
+      "provision_ref": "s9",
+      "section": "9",
+      "title": "Sufficient description of secured obligations",
+      "content": "A credit agreement may describe secured obligations generically, including by a reference to all payment obligations specified under a credit agreement for which the security interest may be enforced. A credit agreement may describe secured obligations generically, including by a reference to all payment obligations specified under a credit agreement for which the security interest may be enforced."
+    },
+    {
+      "provision_ref": "s10",
+      "section": "10",
+      "title": "Automatic extension of security interest",
+      "content": "(1) After a security interest is created and becomes effective between the lender and borrower, it shall automatically extend to any identifiable proceeds of the collateral whether or not the credit agreement contains a description of the proceeds as provided in this Act. After a security interest is created and becomes effective between the lender and borrower, it shall automatically extend to any identifiable proceeds of the collateral whether or not the credit agreement contains a description of the proceeds as provided in this Act. (2) Where proceeds in the form of money or funds credited to a bank account are commingled with other assets of the same kind, Where proceeds in the form of money or funds credited to a bank account are commingled with other assets of the same kind, the security interest extends to the commingled assets, notwithstanding that the proceeds have ceased to be identifiable; the security interest extends to the commingled assets, notwithstanding that the proceeds have ceased to be identifiable; the security interest in the commingled assets is limited to the amount of the proceeds immediately before they were commingled; and the security interest in the commingled assets is limited to the amount of the proceeds immediately before they were commingled; and if at any time after the commingling, the amount of the commingled money or of the balance credited to the bank account is less than the amount of the proceeds immediately before they were commingled, the security interest in the commingled assets is limited to the lowest amount between the time when the proceeds were commingled and the time when the security interest is claimed. if at any time after the commingling, the amount of the commingled money or of the balance credited to the bank account is less than the amount of the proceeds immediately before they were commingled, the security interest in the commingled assets is limited to the lowest amount between the time when the proceeds were commingled and the time when the security interest is claimed."
+    },
+    {
+      "provision_ref": "s11",
+      "section": "11",
+      "title": "Contractual limitations on the creation of a security interest in account receivables",
+      "content": "(1) A security interest in an account receivable is effective as between the borrower and the lender and as against the debtor of the account receivable despite any agreement that in any way limits the right of the borrower to create a security interest. A security interest in an account receivable is effective as between the borrower and the lender and as against the debtor of the account receivable despite any agreement that in any way limits the right of the borrower to create a security interest. (2) A party to an agreement may not avoid the contract giving rise to the account receivable or the credit agreement on the sole ground of the breach of that agreement, or raise against the lender any claim the party may have as a result of the breach against the borrower. A party to an agreement may not avoid the contract giving rise to the account receivable or the credit agreement on the sole ground of the breach of that agreement, or raise against the lender any claim the party may have as a result of the breach against the borrower. (3) Nothing in this section affects any obligation or liability of the borrower for breach of the agreement referred to in subsection (1). Nothing in this section affects any obligation or liability of the borrower for breach of the agreement referred to in subsection (1)."
+    },
+    {
+      "provision_ref": "s12",
+      "section": "12",
+      "title": "Contractual limitations on the creation of a security interest in deposit accounts",
+      "content": "Where a borrower creates a security interest in a deposit account the security interest is effective despite an agreement between the borrower and a bank or specialised deposit-taking institution that limits the right of the borrower to create that security interest in that deposit account. Where a borrower creates a security interest in a deposit account the security interest is effective despite an agreement between the borrower and a bank or specialised deposit-taking institution that limits the right of the borrower to create that security interest in that deposit account."
+    },
+    {
+      "provision_ref": "s13",
+      "section": "13",
+      "title": "Contractual limitations on the creation of a security interest in intellectual property",
+      "content": "A security interest in a tangible property with respect to which intellectual property is used, does not extend to the intellectual property and a security interest in the intellectual property does not extend to the tangible property. A security interest in a tangible property with respect to which intellectual property is used, does not extend to the intellectual property and a security interest in the intellectual property does not extend to the tangible property."
+    },
+    {
+      "provision_ref": "s14",
+      "section": "14",
+      "title": "Achieving third-party effectiveness",
+      "content": "(1) A security interest created and registered under this Act is effective against a third party. A security interest created and registered under this Act is effective against a third party. (2) A security interest shall continue to be effective against a third party for as long as the registration of the security interest has not been discharged. A security interest shall continue to be effective against a third party for as long as the registration of the security interest has not been discharged."
+    },
+    {
+      "provision_ref": "s15",
+      "section": "15",
+      "title": "Extension of a security interest to proceeds",
+      "content": "(1) Except as otherwise provided in this Act, a security interest in collateral which is effective against a third party shall Except as otherwise provided in this Act, a security interest in collateral which is effective against a third party shall continue where the collateral has been disposed of, unless the lender has authorised the disposition; and continue where the collateral has been disposed of, unless the lender has authorised the disposition; and extend to the proceeds. extend to the proceeds. (2) If a lender enforces the security interest against both the collateral and the proceeds, the realisation of the security interest is limited to the value of the collateral at the date of the disposition that gave rise to the proceeds. If a lender enforces the security interest against both the collateral and the proceeds, the realisation of the security interest is limited to the value of the collateral at the date of the disposition that gave rise to the proceeds."
+    },
+    {
+      "provision_ref": "s16",
+      "section": "16",
+      "title": "Security interest with respect to proceeds",
+      "content": "(1) A security interest with respect to proceeds shall continue to be effective against third parties where A security interest with respect to proceeds shall continue to be effective against third parties where the security interest in the original collateral has, by registration, been made effective against third parties; and the security interest in the original collateral has, by registration, been made effective against third parties; and the proceeds are the proceeds are of a kind that is within the description of the collateral in the registration; or of a kind that is within the description of the collateral in the registration; or cash proceeds as defined in section 85. cash proceeds as defined in section 85. (2) A security interest in proceeds not covered by paragraph (b) of subsection (1) is effective against third parties until the expiration of ten days after the proceeds are realised. A security interest in proceeds not covered by paragraph (b) of subsection (1) is effective against third parties until the expiration of ten days after the proceeds are realised. (3) The security interest in proceeds referred to in subsection (2) shall cease to be effective against third parties if the lender does not amend the registration within ten days after the proceeds are realised. The security interest in proceeds referred to in subsection (2) shall cease to be effective against third parties if the lender does not amend the registration within ten days after the proceeds are realised."
+    },
+    {
+      "provision_ref": "s17",
+      "section": "17",
+      "title": "Concurrent registration of security interest",
+      "content": "(1) A security interest that covers a right to property which is registered in another registry is effective against third parties where the lender satisfies the requirements under this Act. A security interest that covers a right to property which is registered in another registry is effective against third parties where the lender satisfies the requirements under this Act. (2) Despite subsection (1), the registration of a security interest in collateral under this Act, does not dispense with any registration requirements under other applicable laws. Despite subsection (1), the registration of a security interest in collateral under this Act, does not dispense with any registration requirements under other applicable laws."
+    },
+    {
+      "provision_ref": "s18",
+      "section": "18",
+      "title": "Collateral Registry",
+      "content": "There is established by this Act the Collateral Registry at the Bank. There is established by this Act the Collateral Registry at the Bank."
+    },
+    {
+      "provision_ref": "s19",
+      "section": "19",
+      "title": "Functions of the Registry",
+      "content": "The functions of the Registry are to register security interests; to register security interests; to keep and maintain a Register of security interests; to keep and maintain a Register of security interests; to keep and maintain a platform for the conduct of searches in security interest; and to keep and maintain a platform for the conduct of searches in security interest; and to perform any other function determined by the Bank. to perform any other function determined by the Bank."
+    },
+    {
+      "provision_ref": "s20",
+      "section": "20",
+      "title": "Appointment of the Registrar",
+      "content": "(1) The Bank shall appoint a Registrar for the Registry. The Bank shall appoint a Registrar for the Registry. (2) The Registrar shall hold office on the terms and conditions specified in the letter of appointment. The Registrar shall hold office on the terms and conditions specified in the letter of appointment."
+    },
+    {
+      "provision_ref": "s21",
+      "section": "21",
+      "title": "Functions of the Registrar",
+      "content": "(1) The Registrar is responsible for the performance of the functions of the Registry. The Registrar is responsible for the performance of the functions of the Registry. (2) The Registrar, in the performance of the functions under subsection (1), shall The Registrar, in the performance of the functions under subsection (1), shall verify whether authorisation for registration has been properly granted under this Act; or verify whether authorisation for registration has been properly granted under this Act; or conduct a scrutiny of the information provided on the registration form. conduct a scrutiny of the information provided on the registration form."
+    },
+    {
+      "provision_ref": "s22",
+      "section": "22",
+      "title": "Registration of security interest",
+      "content": "(1) A lender in whose favour a security interest is created shall register the security interest with the Registry within twenty-eight days after the date of creation of that security interest. A lender in whose favour a security interest is created shall register the security interest with the Registry within twenty-eight days after the date of creation of that security interest. (2) A lender, under the supervision of the Bank, that contravenes subsection (1) is liable to pay to the Bank an administrative penalty of ten penalty units for each day that the breach continues. A lender, under the supervision of the Bank, that contravenes subsection (1) is liable to pay to the Bank an administrative penalty of ten penalty units for each day that the breach continues. (3) Despite paragraph (b) of subsection (3) of section 1, where the loan amount advanced by the lender under a credit agreement is five hundred Cedis or less or an amount determined by the Bank by notice published in the Gazette and in two daily newspapers of nationwide circulation, that lender may register the security interest under this Act. Despite paragraph (b) of subsection (3) of section 1, where the loan amount advanced by the lender under a credit agreement is five hundred Cedis or less or an amount determined by the Bank by notice published in the Gazette and in two daily newspapers of nationwide circulation, that lender may register the security interest under this Act. (4) The Bank shall, in accordance with this section, collaborate with other financial sector regulators for the purposes of ensuring the registration of security interests created by the institutions that are regulated by other financial sector regulators. The Bank shall, in accordance with this section, collaborate with other financial sector regulators for the purposes of ensuring the registration of security interests created by the institutions that are regulated by other financial sector regulators. (5) Despite provisions to the contrary in the Stamp Duty Act, 2005 (Act 689) a lender or a registrant may register a security interest under this Act before or after the stamping of a credit agreement. Despite provisions to the contrary in the Stamp Duty Act, 2005 (Act 689) a lender or a registrant may register a security interest under this Act before or after the stamping of a credit agreement. (6) A lender shall not enforce a security interest registered under this Act unless the credit agreement is stamped in accordance with the Stamp Duty Act, 2005 (Act 689). A lender shall not enforce a security interest registered under this Act unless the credit agreement is stamped in accordance with the Stamp Duty Act, 2005 (Act 689). (7) A lender or registrant who makes a fictitious or fraudulent registration commits an offence and is liable on summary conviction to a fine of not less than one thousand five hundred penalty units and not more than three thousand penalty units or to a term of imprisonment of not less than two years and not more than five years or to both. A lender or registrant who makes a fictitious or fraudulent registration commits an offence and is liable on summary conviction to a fine of not less than one thousand five hundred penalty units and not more than three thousand penalty units or to a term of imprisonment of not less than two years and not more than five years or to both."
+    },
+    {
+      "provision_ref": "s23",
+      "section": "23",
+      "title": "Particulars of registration",
+      "content": "A registrant shall specify the following on the registration form: the identifier of the borrower in the manner prescribed in the Registry Rules; the identifier of the borrower in the manner prescribed in the Registry Rules; the identifier of the lender in the manner prescribed in the Registry Rules; the identifier of the lender in the manner prescribed in the Registry Rules; the maximum amount secured by the security interest; the maximum amount secured by the security interest; a description of the collateral in the manner prescribed in the Registry Rules; a description of the collateral in the manner prescribed in the Registry Rules; the loan tenure as specified under the credit agreement; and the loan tenure as specified under the credit agreement; and any other information required by the Registry Rules. any other information required by the Registry Rules."
+    },
+    {
+      "provision_ref": "s24",
+      "section": "24",
+      "title": "Acknowledgement of registration",
+      "content": "(1) The Registrar shall issue and deliver an acknowledgement of a registration to the registrant within three days after the date of registration. The Registrar shall issue and deliver an acknowledgement of a registration to the registrant within three days after the date of registration. (2) The registrant shall, after receipt of the acknowledgement, submit a copy of the acknowledgement to the borrower within fifteen days after receipt of the acknowledgement. The registrant shall, after receipt of the acknowledgement, submit a copy of the acknowledgement to the borrower within fifteen days after receipt of the acknowledgement. (3) The production of an acknowledgement issued under this section in proceedings before a court is prima facie evidence of effective registration with respect to a security interest in the collateral specified in that acknowledgement in favour of the specified lender. The production of an acknowledgement issued under this section in proceedings before a court is prima facie evidence of effective registration with respect to a security interest in the collateral specified in that acknowledgement in favour of the specified lender."
+    },
+    {
+      "provision_ref": "s25",
+      "section": "25",
+      "title": "Effectiveness of registration",
+      "content": "(1) A registration under this Act is effective from the date and time that registration is A registration under this Act is effective from the date and time that registration is acknowledged by the Registry, and acknowledged by the Registry, and entered into the Register. entered into the Register. (2) A registration shall remain effective until discharged by the registrant in accordance with section 30. A registration shall remain effective until discharged by the registrant in accordance with section 30. (3) The effectiveness of a registration shall not be affected by any defect, irregularity, omission or error, unless the defect, irregularity, omission or error is misleading with respect to the correct collateral identifier of the collateral registered or the correct identifier of the borrower. The effectiveness of a registration shall not be affected by any defect, irregularity, omission or error, unless the defect, irregularity, omission or error is misleading with respect to the correct collateral identifier of the collateral registered or the correct identifier of the borrower. (4) Where an error is identified in a registration, the registration shall not be ineffective with respect to the borrower or collateral that is sufficiently identified or described. Where an error is identified in a registration, the registration shall not be ineffective with respect to the borrower or collateral that is sufficiently identified or described."
+    },
+    {
+      "provision_ref": "s26",
+      "section": "26",
+      "title": "Grounds for refusal of registration",
+      "content": "The Registrar shall not accept a registration in the Register where the information is not submitted in the prescribed form; or the information is not submitted in the prescribed form; or the prescribed fee has not been paid by the person submitting the registration form, unless satisfactory arrangements for payment are made in accordance with the Registry Rules. the prescribed fee has not been paid by the person submitting the registration form, unless satisfactory arrangements for payment are made in accordance with the Registry Rules."
+    },
+    {
+      "provision_ref": "s27",
+      "section": "27",
+      "title": "Authorisation to register",
+      "content": "(1) The lender or a representative of the lender shall, with the written consent of the borrower, register a security interest in collateral by the borrower in favour of the lender at any time. The lender or a representative of the lender shall, with the written consent of the borrower, register a security interest in collateral by the borrower in favour of the lender at any time. (2) A borrower who enters into a credit agreement is deemed to have authorised the lender to register the security interest in the collateral. A borrower who enters into a credit agreement is deemed to have authorised the lender to register the security interest in the collateral."
+    },
+    {
+      "provision_ref": "s28",
+      "section": "28",
+      "title": "Access to the Registry",
+      "content": "(1) A registrant may submit a registration to the Registry in a form prescribed under this Act or in the Registry Rules, if that registrant A registrant may submit a registration to the Registry in a form prescribed under this Act or in the Registry Rules, if that registrant has established a user account with the Registry; and has established a user account with the Registry; and pays or has undertaken to pay the prescribed fee. pays or has undertaken to pay the prescribed fee. (2) A person may, subject to the payment of the prescribed fees, submit a search request to the Registry. A person may, subject to the payment of the prescribed fees, submit a search request to the Registry."
+    },
+    {
+      "provision_ref": "s29",
+      "section": "29",
+      "title": "Amendment of registration",
+      "content": "(1) An amendment to a registration may be effected only by a registrant, by registering the amendment at the Registry. An amendment to a registration may be effected only by a registrant, by registering the amendment at the Registry. (2) The registrant shall amend a registration where The registrant shall amend a registration where the parties have agreed to change the maximum amount secured by the security interest; and the parties have agreed to change the maximum amount secured by the security interest; and the collateral described in the registration includes property that is not collateral under a credit agreement between the lender and the borrower. the collateral described in the registration includes property that is not collateral under a credit agreement between the lender and the borrower. (3) An amendment to a registration is effective and has priority from the date of registration of the amendment where the amendment An amendment to a registration is effective and has priority from the date of registration of the amendment where the amendment adds collateral other than proceeds; adds collateral other than proceeds; adds a new borrower, that is not a transferee of collateral; or adds a new borrower, that is not a transferee of collateral; or modifies the maximum amount secured by the security interest. modifies the maximum amount secured by the security interest. (4) Where required, a borrower may apply to court for an order to compel a lender to amend a registration. Where required, a borrower may apply to court for an order to compel a lender to amend a registration."
+    },
+    {
+      "provision_ref": "s30",
+      "section": "30",
+      "title": "Discharge of registration",
+      "content": "(1) A lender shall, where subsection (2) applies, discharge or cause a discharge of a registration, in the prescribed form and furnish the borrower with proof of the discharge. A lender shall, where subsection (2) applies, discharge or cause a discharge of a registration, in the prescribed form and furnish the borrower with proof of the discharge. (2) The lender shall discharge or cause a discharge of a registration where The lender shall discharge or cause a discharge of a registration where the obligations under the credit agreement to which the registration relates have been performed and there is not a commitment to make a future advance; the obligations under the credit agreement to which the registration relates have been performed and there is not a commitment to make a future advance; the lender consents to the release of whole or part of the security interest described in the registration; the lender consents to the release of whole or part of the security interest described in the registration; the collateral has been sold pursuant to section 66; or the collateral has been sold pursuant to section 66; or the collateral has been retained by the lender pursuant to section 71; or the collateral has been retained by the lender pursuant to section 71; or the debt has been settled and the collateral has been redeemed in accordance with section 73; or the debt has been settled and the collateral has been redeemed in accordance with section 73; or the registration was effected fraudulently. the registration was effected fraudulently. (3) The lender shall discharge or cause a discharge of a registration within five days of an occurrence of any of the events specified under subsection (2). The lender shall discharge or cause a discharge of a registration within five days of an occurrence of any of the events specified under subsection (2). (4) A borrower may demand in writing that a lender complies with this section. A borrower may demand in writing that a lender complies with this section. (5) A lender shall, within five days after receipt of a written demand from the borrower that complies with subsection (4), discharge or cause a discharge of a registration. A lender shall, within five days after receipt of a written demand from the borrower that complies with subsection (4), discharge or cause a discharge of a registration. (6) Where the lender fails to comply with the written demand within five days after receipt of the written demand, the borrower may apply to court for an order to compel the lender to discharge a registration. Where the lender fails to comply with the written demand within five days after receipt of the written demand, the borrower may apply to court for an order to compel the lender to discharge a registration. (7) An action under subsection (6) shall be on notice to the lender. An action under subsection (6) shall be on notice to the lender. (8) A lender shall give to the borrower, a copy of the Memorandum of Release of Debt as specified in the Third Schedule and issued by the Registry within five days after a discharge of a registration. A lender shall give to the borrower, a copy of the Memorandum of Release of Debt as specified in the Third Schedule and issued by the Registry within five days after a discharge of a registration. (9) The Memorandum of Release of Debt as specified in the Third Schedule issued by the Registry on a discharge of registration shall specify whether the security is released in whole or in part. The Memorandum of Release of Debt as specified in the Third Schedule issued by the Registry on a discharge of registration shall specify whether the security is released in whole or in part. (10) A lender subject to the supervision of the Bank who fails to discharge a collateral in accordance with subsection (2) is liable to pay to the Bank an administrative penalty of one thousand five hundred penalty units. A lender subject to the supervision of the Bank who fails to discharge a collateral in accordance with subsection (2) is liable to pay to the Bank an administrative penalty of one thousand five hundred penalty units."
+    },
+    {
+      "provision_ref": "s31",
+      "section": "31",
+      "title": "Discharges and amendments of registrations by Registrar",
+      "content": "The Registrar shall not make an amendment or entry of a discharge in the Register, except where a system error occurs on the Register; or a system error occurs on the Register; or the amendment or discharge is pursuant to an order of a court of competent jurisdiction. the amendment or discharge is pursuant to an order of a court of competent jurisdiction."
+    },
+    {
+      "provision_ref": "s32",
+      "section": "32",
+      "title": "Searches",
+      "content": "(1) A person may, without having to provide reasons, conduct a search on the Register and obtain results of the search in accordance with this Act and in the manner prescribed in the Registry Rules. A person may, without having to provide reasons, conduct a search on the Register and obtain results of the search in accordance with this Act and in the manner prescribed in the Registry Rules. (2) A person conducting a search under subsection (1) may do so by reference to the following: A person conducting a search under subsection (1) may do so by reference to the following: the identifier of a borrower in accordance with the Registry Rules; the identifier of a borrower in accordance with the Registry Rules; the identifier of the collateral in accordance with the Registry Rules; or the identifier of the collateral in accordance with the Registry Rules; or the registration number assigned to the registration. the registration number assigned to the registration. (3) The result of the search issued by the Registry is evidence of the existence or absence of the registration on the Register at the date and time the result is issued and is admissible as evidence in court proceedings. The result of the search issued by the Registry is evidence of the existence or absence of the registration on the Register at the date and time the result is issued and is admissible as evidence in court proceedings. (4) A person shall not use the results of a search obtained from the Registry for the purposes of maligning, causing wilful injury or unwarranted damage to a borrower or interested party. A person shall not use the results of a search obtained from the Registry for the purposes of maligning, causing wilful injury or unwarranted damage to a borrower or interested party. (5) A person that contravenes subsection (4) commits an offence and is liable upon summary conviction to a fine of not less than two hundred and fifty penalty units and not more than two thousand five hundred penalty units or to a term of imprisonment of not less than two years and not more than five years or to both. A person that contravenes subsection (4) commits an offence and is liable upon summary conviction to a fine of not less than two hundred and fifty penalty units and not more than two thousand five hundred penalty units or to a term of imprisonment of not less than two years and not more than five years or to both."
+    },
+    {
+      "provision_ref": "s33",
+      "section": "33",
+      "title": "Priority of registration",
+      "content": "A security interest registered under this Act shall, irrespective of the time of registration, have priority over any other security interest registered under any other enactment. A security interest registered under this Act shall, irrespective of the time of registration, have priority over any other security interest registered under any other enactment."
+    },
+    {
+      "provision_ref": "s34",
+      "section": "34",
+      "title": "Priority between security interests",
+      "content": "Priority between security interests in the same collateral shall be determined by the order of the registration of the security interest unless otherwise provided in sections 35 to 40. Priority between security interests in the same collateral shall be determined by the order of the registration of the security interest unless otherwise provided in sections 35 to 40."
+    },
+    {
+      "provision_ref": "s35",
+      "section": "35",
+      "title": "Priority of a security interest in proceeds",
+      "content": "Subject to section 16, priority of a security interest in original collateral shall extend to proceeds from that collateral. Subject to section 16, priority of a security interest in original collateral shall extend to proceeds from that collateral."
+    },
+    {
+      "provision_ref": "s36",
+      "section": "36",
+      "title": "Subordination of priority",
+      "content": "(1) A lender may, at any time, in writing, subordinate the priority of the lender under this Act in favour of any existing or future lender or other creditor without the need for the borrower to be a party to the subordination. A lender may, at any time, in writing, subordinate the priority of the lender under this Act in favour of any existing or future lender or other creditor without the need for the borrower to be a party to the subordination. (2) The agreement to subordinate the priority of a security interest shall not adversely affect the rights of a person who is not a party to the agreement. The agreement to subordinate the priority of a security interest shall not adversely affect the rights of a person who is not a party to the agreement."
+    },
+    {
+      "provision_ref": "s37",
+      "section": "37",
+      "title": "Priority of future advances",
+      "content": "The priority of a security interest extends to all secured obligations, including obligations incurred after the security interest becomes effective against third parties to the extent of the maximum amount stated in the registration. The priority of a security interest extends to all secured obligations, including obligations incurred after the security interest becomes effective against third parties to the extent of the maximum amount stated in the registration."
+    },
+    {
+      "provision_ref": "s38",
+      "section": "38",
+      "title": "Priority of purchase money security interest",
+      "content": "(1) A purchase money security interest in collateral or the proceeds of the purchase money security interest in collateral, other than inventory, has priority over a non-purchase money security interest in the same collateral created by the same borrower, where the purchase money security interest in the collateral or the proceeds of the purchase money security interest in collateral is made effective against third parties by registration not later than five days after the day on which the borrower obtained possession of the collateral. A purchase money security interest in collateral or the proceeds of the purchase money security interest in collateral, other than inventory, has priority over a non-purchase money security interest in the same collateral created by the same borrower, where the purchase money security interest in the collateral or the proceeds of the purchase money security interest in collateral is made effective against third parties by registration not later than five days after the day on which the borrower obtained possession of the collateral. (2) The purchase money security interest in the inventory or the proceeds of the purchase money security interest has priority over non-purchase money security interest created by the same borrower if it is made effective against third parties by registration, and the holder of the prior security interest receives a notification from the borrower before the borrower obtains possession of the collateral created by use of the purchase money security interest. The purchase money security interest in the inventory or the proceeds of the purchase money security interest has priority over non-purchase money security interest created by the same borrower if it is made effective against third parties by registration, and the holder of the prior security interest receives a notification from the borrower before the borrower obtains possession of the collateral created by use of the purchase money security interest."
+    },
+    {
+      "provision_ref": "s39",
+      "section": "39",
+      "title": "Priority of security interest in accessions and commingled goods",
+      "content": "(1) A security interest in goods that is made effective against third parties before the time the goods become an accession has priority over a claim to the goods as an accession made by a person with an interest in the goods. A security interest in goods that is made effective against third parties before the time the goods become an accession has priority over a claim to the goods as an accession made by a person with an interest in the goods. (2) Where the security interest in goods that is effective against third parties subsequently becomes part of a product or mass, and the identity of the security interest is lost, that security interest shall continue in the product or mass. Where the security interest in goods that is effective against third parties subsequently becomes part of a product or mass, and the identity of the security interest is lost, that security interest shall continue in the product or mass. (3) In the absence of any agreement to the contrary, if more than one security interest in goods is effective against third parties before the goods become part of a product or mass, the security interests shall rank in accordance with the order of registration under this Act. In the absence of any agreement to the contrary, if more than one security interest in goods is effective against third parties before the goods become part of a product or mass, the security interests shall rank in accordance with the order of registration under this Act."
+    },
+    {
+      "provision_ref": "s40",
+      "section": "40",
+      "title": "Priority with respect to transferred collateral",
+      "content": "If a borrower transfers an interest in collateral that at the time of the transfer is subject to a security interest effective against a third party, that security interest has priority over any other security interest created by the transferee. If a borrower transfers an interest in collateral that at the time of the transfer is subject to a security interest effective against a third party, that security interest has priority over any other security interest created by the transferee."
+    },
+    {
+      "provision_ref": "s41",
+      "section": "41",
+      "title": "Priority of transferee of money",
+      "content": "A transferee of money takes the money free of a security interest, unless the transferee acts in collusion with a borrower in violation of the rights of a lender. A transferee of money takes the money free of a security interest, unless the transferee acts in collusion with a borrower in violation of the rights of a lender."
+    },
+    {
+      "provision_ref": "s42",
+      "section": "42",
+      "title": "Priority of transferee of funds",
+      "content": "A creditor who receives through any payments system, the payment of a debt owed to that creditor by a borrower shall receive the payment free of a security interest, unless the transferee acts in collusion with a borrower in violation of the rights of a lender. A creditor who receives through any payments system, the payment of a debt owed to that creditor by a borrower shall receive the payment free of a security interest, unless the transferee acts in collusion with a borrower in violation of the rights of a lender."
+    },
+    {
+      "provision_ref": "s43",
+      "section": "43",
+      "title": "Priority of a purchaser of a negotiable instrument, a document of title or a security certificate",
+      "content": "A purchaser of a negotiable instrument, document of title or security certificate has priority over a security interest in that negotiable instrument, document of title or security certificate effective against a third party in the negotiable instrument, the document of title or the security certificate, if the purchaser gave value for the purchase; gave value for the purchase; acquired the negotiable instrument, the document of title or the security certificate without knowledge that the transaction is a breach of a credit agreement to which the security interest relates; and acquired the negotiable instrument, the document of title or the security certificate without knowledge that the transaction is a breach of a credit agreement to which the security interest relates; and took possession of the negotiable instrument, the document of title or the security certificate. took possession of the negotiable instrument, the document of title or the security certificate."
+    },
+    {
+      "provision_ref": "s44",
+      "section": "44",
+      "title": "Priority of buyer or lessee",
+      "content": "(1) A buyer or lessee of movable property that is collateral, acquires that movable property free of a security interest that has not been made effective against a third party if the movable property was acquired for value without notice. A buyer or lessee of movable property that is collateral, acquires that movable property free of a security interest that has not been made effective against a third party if the movable property was acquired for value without notice. (2) A buyer of goods sold in the ordinary course of business of a seller, and a lessee of goods leased in the ordinary course of business of a lessor, shall take the goods free of a security interest created by the seller or a lessor, unless the buyer or the lessee knows that the sale or the lease constitutes a breach of a credit agreement under which the security interest was created. A buyer of goods sold in the ordinary course of business of a seller, and a lessee of goods leased in the ordinary course of business of a lessor, shall take the goods free of a security interest created by the seller or a lessor, unless the buyer or the lessee knows that the sale or the lease constitutes a breach of a credit agreement under which the security interest was created. (3) A buyer of immovable property for value shall, where the mortgage of the lender has not been registered under this Act, take that immovable property free of a security interest that has been made effective only under the Home Mortgage Finance Act, 2008 (Act 770) or the Mortgages Act, 1972 (N.R.C.D. 96). A buyer of immovable property for value shall, where the mortgage of the lender has not been registered under this Act, take that immovable property free of a security interest that has been made effective only under the Home Mortgage Finance Act, 2008 (Act 770) or the Mortgages Act, 1972 (N.R.C.D. 96)."
+    },
+    {
+      "provision_ref": "s45",
+      "section": "45",
+      "title": "Priority of mortgages",
+      "content": "A security interest in an immovable property in the form of a mortgage that is made effective against a third party under this Act has priority over any other mortgage subsequently registered under this Act, the Home Mortgage Finance Act, 2008 (Act 770) or the Mortgages Act, 1972 (N.R.C.D. 96). A security interest in an immovable property in the form of a mortgage that is made effective against a third party under this Act has priority over any other mortgage subsequently registered under this Act, the Home Mortgage Finance Act, 2008 (Act 770) or the Mortgages Act, 1972 (N.R.C.D. 96)."
+    },
+    {
+      "provision_ref": "s46",
+      "section": "46",
+      "title": "Priority of right to payment related to immovable property",
+      "content": "(1) A security interest in a rental payment or a right to payment that arises in connection with an immovable property that is made effective against a third party under this Act has priority over any other security interest or mortgage subsequently registered under this Act, Home Mortgage Finance Act, 2008 (Act 770) or the Mortgages Act, 1972 (N.R.C.D. 96). A security interest in a rental payment or a right to payment that arises in connection with an immovable property that is made effective against a third party under this Act has priority over any other security interest or mortgage subsequently registered under this Act, Home Mortgage Finance Act, 2008 (Act 770) or the Mortgages Act, 1972 (N.R.C.D. 96). (2) A buyer of an immovable property in respect of which a security interest in a rental payment or a right to that payment has been made effective against a third party under this Act and not recorded under the Home Mortgage Finance Act, 2008 (Act 770) or the Mortgages Act, 1972 (N.R.C.D. 96), takes that immovable property free of that security interest. A buyer of an immovable property in respect of which a security interest in a rental payment or a right to that payment has been made effective against a third party under this Act and not recorded under the Home Mortgage Finance Act, 2008 (Act 770) or the Mortgages Act, 1972 (N.R.C.D. 96), takes that immovable property free of that security interest."
+    },
+    {
+      "provision_ref": "s47",
+      "section": "47",
+      "title": "Priority of security interests in fixtures",
+      "content": "A security interest in a fixture made effective against a third party under this Act has priority over any other security interest or mortgage subsequently registered under this Act, the Home Mortgage Finance Act, 2008 (Act 770) or the Mortgages Act, 1972 (N.R.C.D. 96). A security interest in a fixture made effective against a third party under this Act has priority over any other security interest or mortgage subsequently registered under this Act, the Home Mortgage Finance Act, 2008 (Act 770) or the Mortgages Act, 1972 (N.R.C.D. 96)."
+    },
+    {
+      "provision_ref": "s48",
+      "section": "48",
+      "title": "Possessory lien in respect of movable property",
+      "content": "A possessory lien in respect of a movable property created by operation of law and held by a person who provided materials or services in respect of that movable property that is the subject of a security interest made effective under this Act, has priority over that security interest if the materials or services relating to the lien were provided in the ordinary course of business; the materials or services relating to the lien were provided in the ordinary course of business; the lien has not arisen under an Act that provides that the lien does not have the priority; and the lien has not arisen under an Act that provides that the lien does not have the priority; and the person who provided the materials or services did not, at the time the person provided those materials or services, know that a credit agreement relating to the materials or services contained a provision prohibiting the creation of a lien by the borrower. the person who provided the materials or services did not, at the time the person provided those materials or services, know that a credit agreement relating to the materials or services contained a provision prohibiting the creation of a lien by the borrower."
+    },
+    {
+      "provision_ref": "s49",
+      "section": "49",
+      "title": "Lien in respect of immovable property",
+      "content": "A possessory lien in respect of an immovable property created by operation of law and held by a person who provided materials or services in respect of that immovable property that is the subject of a security interest made effective under this Act has priority over that other security interest, if the person providing the materials or services registered the lien under this Act before the security interest was registered. A possessory lien in respect of an immovable property created by operation of law and held by a person who provided materials or services in respect of that immovable property that is the subject of a security interest made effective under this Act has priority over that other security interest, if the person providing the materials or services registered the lien under this Act before the security interest was registered."
+    },
+    {
+      "provision_ref": "s50",
+      "section": "50",
+      "title": "Judgment liens",
+      "content": "(1) The interest of a judgment creditor in any collateral shall have priority over any security interest in the same collateral if the security interest is not made effective against third parties at the time of execution of the judgment. The interest of a judgment creditor in any collateral shall have priority over any security interest in the same collateral if the security interest is not made effective against third parties at the time of execution of the judgment. (2) In this section, “time of execution” means In this section, “time of execution” means the time of seizure, if property is seized by or on behalf of an execution creditor; or the time of seizure, if property is seized by or on behalf of an execution creditor; or the time when a judicial order is served on a person who is holding property for or on behalf of a borrower. the time when a judicial order is served on a person who is holding property for or on behalf of a borrower."
+    },
+    {
+      "provision_ref": "s51",
+      "section": "51",
+      "title": "Right to apply for credit",
+      "content": "(1) A person who has legal capacity to enter into a contract may apply to a lender for credit. A person who has legal capacity to enter into a contract may apply to a lender for credit. (2) A lender may refuse to enter into a credit agreement with a prospective borrower on reasonable commercial grounds consistent with the customary risk management and underwriting practices of the lender. A lender may refuse to enter into a credit agreement with a prospective borrower on reasonable commercial grounds consistent with the customary risk management and underwriting practices of the lender. (3) This Act does not establish a right of a person to require a lender to enter into a credit agreement with that person. This Act does not establish a right of a person to require a lender to enter into a credit agreement with that person."
+    },
+    {
+      "provision_ref": "s52",
+      "section": "52",
+      "title": "Protection against discrimination with respect to credit",
+      "content": "(1) A lender shall not discriminate against a person on the grounds of gender, race, colour, ethnic origin, political opinion, religion, creed, social or economic status or use any of these grounds as the basis to A lender shall not discriminate against a person on the grounds of gender, race, colour, ethnic origin, political opinion, religion, creed, social or economic status or use any of these grounds as the basis to assess the ability of a person to meet the obligations of a proposed credit agreement; assess the ability of a person to meet the obligations of a proposed credit agreement; refuse an application for entry into a credit agreement, or to enter into a credit agreement; refuse an application for entry into a credit agreement, or to enter into a credit agreement; determine an aspect of the cost of a credit agreement to the borrower; determine an aspect of the cost of a credit agreement to the borrower; propose or agree on the terms and conditions of a credit agreement; propose or agree on the terms and conditions of a credit agreement; assess or require compliance by the person with the terms of a credit agreement; assess or require compliance by the person with the terms of a credit agreement; exercise any right of the lender under a credit agreement, this Act or any legislation relating to credit; or exercise any right of the lender under a credit agreement, this Act or any legislation relating to credit; or determine whether to continue, enforce, seek judgment as regards a credit agreement or terminate a credit agreement. determine whether to continue, enforce, seek judgment as regards a credit agreement or terminate a credit agreement. (2) A person aggrieved by a decision of a lender that appears to have been made contrary to subsection (1), may make a complaint to the Bank for redress. A person aggrieved by a decision of a lender that appears to have been made contrary to subsection (1), may make a complaint to the Bank for redress."
+    },
+    {
+      "provision_ref": "s53",
+      "section": "53",
+      "title": "Access to credit for persons with disabilities",
+      "content": "(1) A lender shall not discriminate against a person on the grounds of disability. A lender shall not discriminate against a person on the grounds of disability. (2) A lender shall provide a person with disability access to clear, comprehensive and accurate information in a manner that is accessible, at all stages of credit delivery. A lender shall provide a person with disability access to clear, comprehensive and accurate information in a manner that is accessible, at all stages of credit delivery. (3) A lender shall, in accordance with section 7 of the Persons with Disability Act, 2006 (Act 715), put in place the necessary amenities to make credit services available and accessible to a person with disability. A lender shall, in accordance with section 7 of the Persons with Disability Act, 2006 (Act 715), put in place the necessary amenities to make credit services available and accessible to a person with disability."
+    },
+    {
+      "provision_ref": "s54",
+      "section": "54",
+      "title": "Delivery of documents",
+      "content": "A lender may deliver a document to a borrower in person; in person; by ordinary mail; by ordinary mail; by registered mail; by registered mail; by courier service; by courier service; by facsimile; by facsimile; by electronic-mail; by electronic-mail; by printable web-page; or by printable web-page; or by any other means agreed between the lender and the borrower. by any other means agreed between the lender and the borrower."
+    },
+    {
+      "provision_ref": "s55",
+      "section": "55",
+      "title": "Credit rights of borrower",
+      "content": "(1) A lender shall not in response to a right exercised by a borrower under this Act A lender shall not in response to a right exercised by a borrower under this Act penalise the borrower; penalise the borrower; alter, or propose to alter the terms or conditions of a credit agreement with the borrower to the detriment of the borrower; or alter, or propose to alter the terms or conditions of a credit agreement with the borrower to the detriment of the borrower; or take an action to accelerate, enforce, suspend or terminate a credit agreement with the borrower. take an action to accelerate, enforce, suspend or terminate a credit agreement with the borrower. (2) A lender shall, in a credit agreement, impose on a borrower an interest rate that is calculated on an annual basis only. A lender shall, in a credit agreement, impose on a borrower an interest rate that is calculated on an annual basis only. (3) Where a credit agreement provides for the application of a penal interest rate on a delayed repayment of Where a credit agreement provides for the application of a penal interest rate on a delayed repayment of the principal amount of the loan, the principal amount of the loan, the interest on the principal amount of the loan, or the interest on the principal amount of the loan, or both the principal amount and the interest on the principal amount of the loan both the principal amount and the interest on the principal amount of the loan the agreed penal rate shall be applied on the amount of the delayed payment only and not on the total amount of the outstanding loan. (4) Where a credit agreement or the provision of a credit agreement is declared by a court to be unlawful, and the provision is removed from the agreement, the lender in that agreement shall not, in response to that decision Where a credit agreement or the provision of a credit agreement is declared by a court to be unlawful, and the provision is removed from the agreement, the lender in that agreement shall not, in response to that decision alter the terms or conditions of any other credit agreement with a party to the impugned agreement, except to the extent necessary to correct the unlawful provision, or alter the terms or conditions of any other credit agreement with a party to the impugned agreement, except to the extent necessary to correct the unlawful provision, or take an action to accelerate, enforce, suspend or terminate another credit agreement with another party to the impugned agreement. take an action to accelerate, enforce, suspend or terminate another credit agreement with another party to the impugned agreement."
+    },
+    {
+      "provision_ref": "s56",
+      "section": "56",
+      "title": "Confidentiality",
+      "content": "(1) A lender or a person who acts on behalf of a lender shall not disclose information obtained from a borrower unless the disclosure is required by A lender or a person who acts on behalf of a lender shall not disclose information obtained from a borrower unless the disclosure is required by this Act; this Act; the Credit Reporting Act, 2007 (Act 726); the Credit Reporting Act, 2007 (Act 726); any other law; or any other law; or a court of competent jurisdiction. a court of competent jurisdiction. (2) Despite subsection (1), a lender may, subject to the consent of the borrower, disclose information obtained from the borrower to another person. Despite subsection (1), a lender may, subject to the consent of the borrower, disclose information obtained from the borrower to another person."
+    },
+    {
+      "provision_ref": "s57",
+      "section": "57",
+      "title": "Pre-agreement disclosure",
+      "content": "(1) A lender shall provide a borrower with a clear, comprehensive and accurate information regarding a credit agreement and shall inform the borrower of the rights and responsibilities of that borrower. A lender shall provide a borrower with a clear, comprehensive and accurate information regarding a credit agreement and shall inform the borrower of the rights and responsibilities of that borrower. (2) A lender regulated by the Bank shall not conclude a credit agreement with a prospective borrower unless the lender provides the prospective borrower with a pre-agreement disclosure statement in the form specified in the First Schedule. A lender regulated by the Bank shall not conclude a credit agreement with a prospective borrower unless the lender provides the prospective borrower with a pre-agreement disclosure statement in the form specified in the First Schedule. (3) A pre-agreement disclosure statement shall include A pre-agreement disclosure statement shall include the principal amount; the principal amount; the proposed disbursement schedule of the principal amount; the proposed disbursement schedule of the principal amount; the interest rate; the interest rate; the total amount involved in the proposed agreement; the total amount involved in the proposed agreement; the proposed repayment schedule; the proposed repayment schedule; the basis of any cost that may be assessed if the borrower breaches the contract; the basis of any cost that may be assessed if the borrower breaches the contract; any fees that applies to the prepayment of any obligation that is due under the credit facility; and any fees that applies to the prepayment of any obligation that is due under the credit facility; and insurance for the loan. insurance for the loan. (4) Any charges or fees that are not disclosed to a borrower in a pre-agreement disclosure statement prior to the execution of a credit agreement, shall not be payable and if paid already, shall be refunded with interest at the prevailing rate. Any charges or fees that are not disclosed to a borrower in a pre-agreement disclosure statement prior to the execution of a credit agreement, shall not be payable and if paid already, shall be refunded with interest at the prevailing rate. (5) A lender who contravenes this section is liable to pay to the Bank an administrative penalty of one thousand five hundred penalty units. A lender who contravenes this section is liable to pay to the Bank an administrative penalty of one thousand five hundred penalty units. (6) A borrower may, in furtherance of subsection (3) sue a lender for damages for loss suffered as a result of a contravention. A borrower may, in furtherance of subsection (3) sue a lender for damages for loss suffered as a result of a contravention."
+    },
+    {
+      "provision_ref": "s58",
+      "section": "58",
+      "title": "Account statement",
+      "content": "The lender shall not later than five days after the request of a borrower, provide a statement capturing the status of a loan including, any payment made, remaining balance, fees and interest. The lender shall not later than five days after the request of a borrower, provide a statement capturing the status of a loan including, any payment made, remaining balance, fees and interest."
+    },
+    {
+      "provision_ref": "s59",
+      "section": "59",
+      "title": "Obligation of borrower",
+      "content": "(1) A borrower may settle the credit amount at any time, subject to notice requirements and the conditions provided for in the credit agreement. A borrower may settle the credit amount at any time, subject to notice requirements and the conditions provided for in the credit agreement. (2) A credit agreement shall provide for the terms and conditions of any repayment and the order in which advance payments are to be applied. A credit agreement shall provide for the terms and conditions of any repayment and the order in which advance payments are to be applied. (3) Unless otherwise agreed by the parties, the amount required to settle a debt in a credit agreement is the total of Unless otherwise agreed by the parties, the amount required to settle a debt in a credit agreement is the total of the principal amount; the principal amount; the accrued interest charges; the accrued interest charges; a prepayment charge, if any, agreed between the borrower and lender; and a prepayment charge, if any, agreed between the borrower and lender; and other fees and charges payable by the borrower to the lender up to the date for settlement. other fees and charges payable by the borrower to the lender up to the date for settlement. (4) Subject to any notice requirements provided in a credit agreement, a lender shall accept any payment under a credit agreement when the payment is made, even if the payment is made before the date on which that payment is due. Subject to any notice requirements provided in a credit agreement, a lender shall accept any payment under a credit agreement when the payment is made, even if the payment is made before the date on which that payment is due. (5) A lender shall credit each payment made under a credit agreement to the borrower as of the date of receipt of the payment. A lender shall credit each payment made under a credit agreement to the borrower as of the date of receipt of the payment."
+    },
+    {
+      "provision_ref": "s60",
+      "section": "60",
+      "title": "Default",
+      "content": "(1) Where an event of default arises under a credit agreement and the lender decides to realise the security interest of the lender, the lender shall give a notice of the default to the borrower in writing and request the borrower to pay the amount due within thirty days after the date of receipt of the notice. Where an event of default arises under a credit agreement and the lender decides to realise the security interest of the lender, the lender shall give a notice of the default to the borrower in writing and request the borrower to pay the amount due within thirty days after the date of receipt of the notice. (2) Where the collateral is perishable, the period of notice under subsection (1) shall not apply, and the lender shall give a notice of the default to the borrower in writing and request the borrower to pay the amount due immediately. Where the collateral is perishable, the period of notice under subsection (1) shall not apply, and the lender shall give a notice of the default to the borrower in writing and request the borrower to pay the amount due immediately. (3) The lender may deliver the notice by The lender may deliver the notice by hand personally; hand personally; courier service; courier service; registered mail; or registered mail; or any other means agreed upon by the lender and the borrower in the credit agreement. any other means agreed upon by the lender and the borrower in the credit agreement. (4) A notice delivered A notice delivered by hand, is effective on the date the notice is received personally, and the receipt evidenced by acknowledgment of the borrower; by hand, is effective on the date the notice is received personally, and the receipt evidenced by acknowledgment of the borrower; by registered mail, is effective on the date the notice is officially recorded as delivered by a return receipt or the equivalent of the return receipt; by registered mail, is effective on the date the notice is officially recorded as delivered by a return receipt or the equivalent of the return receipt; by courier service is effective where by courier service is effective where the borrower receives the notice personally or where the borrower is a corporate body, the notice is left with the company secretary of the borrower or a senior official; the borrower receives the notice personally or where the borrower is a corporate body, the notice is left with the company secretary of the borrower or a senior official; the notice is posted on the premises of the borrower when the borrower evades or rejects service, the notice is posted on the premises of the borrower when the borrower evades or rejects service, the notice is left in the custody of an adult on the premises of the borrower for delivery to the borrower, and the notice is left in the custody of an adult on the premises of the borrower for delivery to the borrower, and the notice is officially recorded as delivered by a return receipt or the equivalent of the return receipt; or the notice is officially recorded as delivered by a return receipt or the equivalent of the return receipt; or by any other means, in accordance with paragraph (d) of subsection (3), is effective on the date the notice is made available to the borrower. by any other means, in accordance with paragraph (d) of subsection (3), is effective on the date the notice is made available to the borrower. (5) A notice delivered under paragraph (c) of subsection (3) shall indicate the mode of service or delivery on the return receipt or the equivalent of the return receipt. A notice delivered under paragraph (c) of subsection (3) shall indicate the mode of service or delivery on the return receipt or the equivalent of the return receipt. (6) For the purposes of this section, the lender shall serve the demand notice on the borrower between the hours of 6 a.m. and 6 p.m. including holidays and weekends. For the purposes of this section, the lender shall serve the demand notice on the borrower between the hours of 6 a.m. and 6 p.m. including holidays and weekends. (7) A lender may publish a notice of default in two daily newspapers of nationwide circulation where three consecutive attempts at service or delivery under subsection (3) have failed. A lender may publish a notice of default in two daily newspapers of nationwide circulation where three consecutive attempts at service or delivery under subsection (3) have failed. (8) Where a borrower fails to Where a borrower fails to pay the amount outstanding; pay the amount outstanding; make satisfactory arrangements to pay the amount outstanding to the lender; or make satisfactory arrangements to pay the amount outstanding to the lender; or cure a default other than failure to make payment cure a default other than failure to make payment within the time period stipulated in the notice, the lender may enforce the rights as set out in section 61. (9) In this section, “premises” means the occupational and residential address of the borrower or any address or location agreed on between the parties in the credit agreement. In this section, “premises” means the occupational and residential address of the borrower or any address or location agreed on between the parties in the credit agreement."
+    },
+    {
+      "provision_ref": "s61",
+      "section": "61",
+      "title": "Remedies of lender on default",
+      "content": "(1) Upon the satisfaction of the requirements under section 60, the lender may Upon the satisfaction of the requirements under section 60, the lender may sue the borrower on any covenant to perform under the credit agreement; sue the borrower on any covenant to perform under the credit agreement; where registered under this Act, realise the security interest in the collateral without initiating proceedings in court; or where registered under this Act, realise the security interest in the collateral without initiating proceedings in court; or appoint a Receiver or Manager under subparagraph (iii) of paragraph (b) of section 74. appoint a Receiver or Manager under subparagraph (iii) of paragraph (b) of section 74. (2) Where the collateral is a document of title, the lender may proceed either against the document of title or the property covered by the document of title. Where the collateral is a document of title, the lender may proceed either against the document of title or the property covered by the document of title."
+    },
+    {
+      "provision_ref": "s62",
+      "section": "62",
+      "title": "Realisation without court order",
+      "content": "(1) Pursuant to paragraph (b) of subsection (1) of section 61, a lender who intends to realise a security interest registered at the Registry without a court order shall register a notice of that intention with the Registry. Pursuant to paragraph (b) of subsection (1) of section 61, a lender who intends to realise a security interest registered at the Registry without a court order shall register a notice of that intention with the Registry. (2) Where all requirements have been met, the Registrar shall certify the realisation process by issuing a certificate known as Memorandum of No Objection in a form as specified in the Second Schedule. Where all requirements have been met, the Registrar shall certify the realisation process by issuing a certificate known as Memorandum of No Objection in a form as specified in the Second Schedule. (3) A Memorandum of No Objection issued to a lender shall remain valid until a time when A Memorandum of No Objection issued to a lender shall remain valid until a time when the collateral has been sold under section 66, the collateral has been sold under section 66, the collateral has been retained by the lender under section 71, or the collateral has been retained by the lender under section 71, or the debt has been settled and the collateral has been redeemed in accordance with section 73. the debt has been settled and the collateral has been redeemed in accordance with section 73."
+    },
+    {
+      "provision_ref": "s63",
+      "section": "63",
+      "title": "Right of lender to possession",
+      "content": "(1) Where a lender realises a security interest in accordance with paragraph (b) of subsection (1) of section 61, the lender may take possession of the collateral or render the collateral unusable without removal. Where a lender realises a security interest in accordance with paragraph (b) of subsection (1) of section 61, the lender may take possession of the collateral or render the collateral unusable without removal. (2) Where a lender has a right to take possession of property that is subject to a security interest, that lender may enforce that right without initiating proceedings in court for that purpose. Where a lender has a right to take possession of property that is subject to a security interest, that lender may enforce that right without initiating proceedings in court for that purpose. (3) A lender is not required to give notice to the borrower before repossessing or rendering a collateral unusable under this section. A lender is not required to give notice to the borrower before repossessing or rendering a collateral unusable under this section."
+    },
+    {
+      "provision_ref": "s64",
+      "section": "64",
+      "title": "Warrant for police assistance",
+      "content": "(1) Where a lender is unable to enforce a right of possession in a peaceable manner, the lender may upon a warrant issued by a court use the services of the police to Where a lender is unable to enforce a right of possession in a peaceable manner, the lender may upon a warrant issued by a court use the services of the police to remove the collateral; or remove the collateral; or evict the borrower where the collateral is immovable property, subject to the rights of third parties or other persons in possession of the collateral. evict the borrower where the collateral is immovable property, subject to the rights of third parties or other persons in possession of the collateral. (2) Where a borrower receives notice of an application made by the lender to a court for a warrant to be issued for the purpose of removing collateral, evicting the borrower or any other person in possession, that borrower may within eight days after receipt of the notice, object to the request by giving evidence to the court that Where a borrower receives notice of an application made by the lender to a court for a warrant to be issued for the purpose of removing collateral, evicting the borrower or any other person in possession, that borrower may within eight days after receipt of the notice, object to the request by giving evidence to the court that full payment of the amount owed has been made; full payment of the amount owed has been made; the default has been cured; or the default has been cured; or the default has not occurred. the default has not occurred. (3) The court shall issue a warrant, if eight days after service of the notice of the request for a warrant on the borrower, the borrower does not file an objection to the request for a warrant. The court shall issue a warrant, if eight days after service of the notice of the request for a warrant on the borrower, the borrower does not file an objection to the request for a warrant. (4) A person who A person who fails without reasonable excuse, to vacate premises being foreclosed by a lender under subsection (1) when duly requested to do so; or fails without reasonable excuse, to vacate premises being foreclosed by a lender under subsection (1) when duly requested to do so; or obstructs a lender in the lawful exercise of a right conferred on the lender by this section obstructs a lender in the lawful exercise of a right conferred on the lender by this section commits an offence and is liable on summary conviction to a fine of not more than five hundred penalty units and in the case of a continuing offence, to a further fine of not more than fifty penalty units for each day the offence continues."
+    },
+    {
+      "provision_ref": "s65",
+      "section": "65",
+      "title": "Application of collateral in satisfaction of obligation",
+      "content": "(1) A lender may collect and apply an account receivable, security, moneys in a deposit account, cash in hand or a negotiable instrument taken as collateral to the satisfaction of the obligation secured by the collateral if the borrower is in default. A lender may collect and apply an account receivable, security, moneys in a deposit account, cash in hand or a negotiable instrument taken as collateral to the satisfaction of the obligation secured by the collateral if the borrower is in default. (2) Unless otherwise agreed between the lender and the borrower, the lender may notify the account debtor and collect payment even before default by the borrower. Unless otherwise agreed between the lender and the borrower, the lender may notify the account debtor and collect payment even before default by the borrower."
+    },
+    {
+      "provision_ref": "s66",
+      "section": "66",
+      "title": "Realisation of collateral after default",
+      "content": "(1) A lender shall realise the collateral by auction, public tender, private sale or any other method provided for in the credit agreement. A lender shall realise the collateral by auction, public tender, private sale or any other method provided for in the credit agreement. (2) The price at which a collateral is sold shall be determined by an independent valuer appointed by the lender. The price at which a collateral is sold shall be determined by an independent valuer appointed by the lender. (3) For the purposes of this Act, where a lender is realising the security interest of the lender in collateral by way of auction in accordance with the Auction Sales Act, 1989 (P.N.D.C.L. 230) the process of realisation by the lender shall be deemed to be an execution of a judgment debt. For the purposes of this Act, where a lender is realising the security interest of the lender in collateral by way of auction in accordance with the Auction Sales Act, 1989 (P.N.D.C.L. 230) the process of realisation by the lender shall be deemed to be an execution of a judgment debt. (4) For the purposes of this Act, where a lender realises a security interest in property by auction, public tender, private sale or any other method provided for in a credit agreement, a transfer of legal title in the property to a purchaser may be confirmed by a court of competent jurisdiction. For the purposes of this Act, where a lender realises a security interest in property by auction, public tender, private sale or any other method provided for in a credit agreement, a transfer of legal title in the property to a purchaser may be confirmed by a court of competent jurisdiction. (5) An application under subsection (4) shall be on notice. An application under subsection (4) shall be on notice. (6) Where a lender transfers collateral to a purchaser for value, pursuant to the realisation of a security interest, the purchaser shall acquire the interest of the borrower in the collateral. Where a lender transfers collateral to a purchaser for value, pursuant to the realisation of a security interest, the purchaser shall acquire the interest of the borrower in the collateral."
+    },
+    {
+      "provision_ref": "s67",
+      "section": "67",
+      "title": "Notice of sale of collateral",
+      "content": "(1) A lender who intends to realise collateral under this Act shall, not less than seven days before the sale, give notice in writing to the following persons: A lender who intends to realise collateral under this Act shall, not less than seven days before the sale, give notice in writing to the following persons: the borrower and the debtor; the borrower and the debtor; any person who has registered a security interest with respect to the interest in the same collateral, before the lender took possession of the collateral; and any person who has registered a security interest with respect to the interest in the same collateral, before the lender took possession of the collateral; and any other person that has given the lender notice that that person claims an interest in the collateral before the lender took possession of the collateral. any other person that has given the lender notice that that person claims an interest in the collateral before the lender took possession of the collateral. (2) Subsection (1) does not apply if Subsection (1) does not apply if the collateral is likely to perish within ten days after possession of the collateral has been taken; the collateral is likely to perish within ten days after possession of the collateral has been taken; the lender believes on reasonable grounds that the collateral will decline substantially in value if it is not disposed of immediately; the lender believes on reasonable grounds that the collateral will decline substantially in value if it is not disposed of immediately; the cost of care and storage of the collateral is disproportionately large in relation to the value of the collateral; the cost of care and storage of the collateral is disproportionately large in relation to the value of the collateral; after the lender takes possession of the collateral, every person entitled to receive notice under subsection (1) consents in writing to the immediate sale of the collateral; or after the lender takes possession of the collateral, every person entitled to receive notice under subsection (1) consents in writing to the immediate sale of the collateral; or a court grants leave to the lender to sell the collateral without complying with subsection (1). a court grants leave to the lender to sell the collateral without complying with subsection (1)."
+    },
+    {
+      "provision_ref": "s68",
+      "section": "68",
+      "title": "Effect of sale of collateral",
+      "content": "Where collateral is sold under section 66, any other security interest in that collateral and the proceeds of the security interest in that collateral shall be extinguished. Where collateral is sold under section 66, any other security interest in that collateral and the proceeds of the security interest in that collateral shall be extinguished."
+    },
+    {
+      "provision_ref": "s69",
+      "section": "69",
+      "title": "Accounting for sale",
+      "content": "Where collateral is sold, the lender shall, within fifteen days after the sale of the collateral, give the persons referred to in subsection (1) of section 67 a statement of account in writing, showing the reasonable cost and expenses of the sale incurred by the lender; the reasonable cost and expenses of the sale incurred by the lender; reasonable legal expenses; and reasonable legal expenses; and the balance owing by the lender to the borrower, or the borrower to the lender, as the case may be. the balance owing by the lender to the borrower, or the borrower to the lender, as the case may be."
+    },
+    {
+      "provision_ref": "s70",
+      "section": "70",
+      "title": "Distribution of proceeds of sale",
+      "content": "(1) A lender who realises collateral under section 66 shall apply the proceeds of the sale in the following order towards: A lender who realises collateral under section 66 shall apply the proceeds of the sale in the following order towards: the reasonable costs and expenses of the sale incurred by the lender; the reasonable costs and expenses of the sale incurred by the lender; reasonable legal expenses; and reasonable legal expenses; and the satisfaction of the debt of any prior interest registered under this Act or lien arising by operation of law; the satisfaction of the debt of any prior interest registered under this Act or lien arising by operation of law; before applying the net proceeds of the sale towards the satisfaction of the debt or other obligation secured by the security interest of the lender. (2) After applying the proceeds in accordance with subsection (1), any surplus from the proceeds of sale of collateral shall be paid into a designated escrow account agreed by the parties who may have subordinate security interest under this Act. After applying the proceeds in accordance with subsection (1), any surplus from the proceeds of sale of collateral shall be paid into a designated escrow account agreed by the parties who may have subordinate security interest under this Act. (3) The surplus from the proceeds of sale of collateral under subsection (2), shall be paid to a person who has a subordinate security interest or any other person that claims an interest in the collateral upon the order of a court in respect of the proceeds. The surplus from the proceeds of sale of collateral under subsection (2), shall be paid to a person who has a subordinate security interest or any other person that claims an interest in the collateral upon the order of a court in respect of the proceeds. (4) Any remaining proceeds of sale after the required payments have been made in accordance with subsections (1) and (3) shall be paid to the borrower. Any remaining proceeds of sale after the required payments have been made in accordance with subsections (1) and (3) shall be paid to the borrower."
+    },
+    {
+      "provision_ref": "s71",
+      "section": "71",
+      "title": "Retention of collateral after default",
+      "content": "(1) A lender who has priority over all other lenders may, after default of payment by the borrower, propose to retain the collateral in full or partial satisfaction of the obligation secured by the collateral. A lender who has priority over all other lenders may, after default of payment by the borrower, propose to retain the collateral in full or partial satisfaction of the obligation secured by the collateral. (2) The lender shall give to the persons listed in subsection (1) of section 67, notice of the proposal which shall include the retirement of the secured amount in the respective security agreements. The lender shall give to the persons listed in subsection (1) of section 67, notice of the proposal which shall include the retirement of the secured amount in the respective security agreements. (3) The lender shall sell the collateral under section 66 if a person who is entitled to a notice under subsection (1) of section 67 and whose interest in the collateral would be adversely affected by the proposal of the lender to retain the collateral gives to the lender within ten days after receiving the notice referred to in subsection (2), a notice of objection to the proposal, to retain the collateral. The lender shall sell the collateral under section 66 if a person who is entitled to a notice under subsection (1) of section 67 and whose interest in the collateral would be adversely affected by the proposal of the lender to retain the collateral gives to the lender within ten days after receiving the notice referred to in subsection (2), a notice of objection to the proposal, to retain the collateral."
+    },
+    {
+      "provision_ref": "s72",
+      "section": "72",
+      "title": "Effect of retention of collateral",
+      "content": "(1) Where a notice of objection is not received by the lender at the expiration of the ten days period referred to in subsection (3) of section 71, the lender is deemed to have irrevocably elected to retain the collateral in satisfaction of the obligation secured by the collateral. Where a notice of objection is not received by the lender at the expiration of the ten days period referred to in subsection (3) of section 71, the lender is deemed to have irrevocably elected to retain the collateral in satisfaction of the obligation secured by the collateral. (2) A decision by a lender to retain collateral under subsection (1) extinguishes other security interests and claims in that collateral subordinate to the security interest of that lender. A decision by a lender to retain collateral under subsection (1) extinguishes other security interests and claims in that collateral subordinate to the security interest of that lender."
+    },
+    {
+      "provision_ref": "s73",
+      "section": "73",
+      "title": "Right to settle debt and redeem collateral",
+      "content": "(1) A person who is entitled to receive a notice under subsection (1) of section 67 may, unless the person otherwise agrees in writing after the borrower has defaulted at any time before a lender sells the collateral in accordance with section 66 or is deemed to have retained the collateral in accordance with section 71, settle the debt and redeem the collateral by paying to the lender, A person who is entitled to receive a notice under subsection (1) of section 67 may, unless the person otherwise agrees in writing after the borrower has defaulted at any time before a lender sells the collateral in accordance with section 66 or is deemed to have retained the collateral in accordance with section 71, settle the debt and redeem the collateral by paying to the lender, the principal amount owed to the lender, the principal amount owed to the lender, the accrued interest on the principal amount, the accrued interest on the principal amount, any fee for the prepayment of an obligation, if agreed between the borrower and the lender, any fee for the prepayment of an obligation, if agreed between the borrower and the lender, any other fees payable by the borrower to the lender up to the date for settlement, and any other fees payable by the borrower to the lender up to the date for settlement, and a sum equal to the reasonable expenses of seizing, repossessing, holding, repairing, servicing, processing and preparing the collateral for sale, if those expenses have actually been incurred by the lender, and any other reasonable expenses incurred by the lender. a sum equal to the reasonable expenses of seizing, repossessing, holding, repairing, servicing, processing and preparing the collateral for sale, if those expenses have actually been incurred by the lender, and any other reasonable expenses incurred by the lender. (2) The right of the borrower to redeem the collateral has priority over the right of any other person to redeem that collateral. The right of the borrower to redeem the collateral has priority over the right of any other person to redeem that collateral."
+    },
+    {
+      "provision_ref": "s74",
+      "section": "74",
+      "title": "Appointment of receiver or manager",
+      "content": "A lender in whose favour a security interest is created may, upon default of the borrower, appoint a receiver or manager in accordance with the provisions of a credit agreement; or appoint a receiver or manager in accordance with the provisions of a credit agreement; or apply to court for the appointment of a receiver or manager to take possession of and protect the property; take possession of and protect the property; collect the rents and profits derived from the property; and collect the rents and profits derived from the property; and realise the security interest on behalf of the lender. realise the security interest on behalf of the lender."
+    },
+    {
+      "provision_ref": "s75",
+      "section": "75",
+      "title": "Registration of appointment or removal of receiver or manager",
+      "content": "(1) A lender who A lender who appoints a receiver or manager in accordance with the provisions of a credit agreement in paragraph (a) of section 74; or appoints a receiver or manager in accordance with the provisions of a credit agreement in paragraph (a) of section 74; or obtains an order for the appointment of a receiver or manager in accordance with paragraph (b) of section 74 shall, within five days of the occurrence of the events in paragraph (a) or (b) submit a notice to that effect to the Registry. obtains an order for the appointment of a receiver or manager in accordance with paragraph (b) of section 74 shall, within five days of the occurrence of the events in paragraph (a) or (b) submit a notice to that effect to the Registry. (2) The Registry shall enter and relate the notice of appointment of a receiver or manager with the relevant registration in respect of the borrower. The Registry shall enter and relate the notice of appointment of a receiver or manager with the relevant registration in respect of the borrower. (3) Where a Where a person appointed receiver or manager of the property ceases to act as receiver or manager, person appointed receiver or manager of the property ceases to act as receiver or manager, person who has entered into possession relinquishes possession, or person who has entered into possession relinquishes possession, or person appointed receiver or manager of the property is removed as receiver or manager person appointed receiver or manager of the property is removed as receiver or manager the lender shall, within ten days of the occurrence of the events in paragraph (a) or (b) or (c), submit a notice to that effect to the Registry. (4) A lender who fails to submit a notice under this section is liable to pay an administrative penalty of one thousand penalty units. A lender who fails to submit a notice under this section is liable to pay an administrative penalty of one thousand penalty units."
+    },
+    {
+      "provision_ref": "s76",
+      "section": "76",
+      "title": "Functions of the Bank under this Act",
+      "content": "(1) The Bank shall in furtherance of this Act, The Bank shall in furtherance of this Act, promote the effective functioning of the Registry; promote the effective functioning of the Registry; promote and support the development of a fair, transparent, competitive, and accessible credit market; promote and support the development of a fair, transparent, competitive, and accessible credit market; collaborate with the Lands Commission, Registrar-General’s Department, the Office of the Registrar of Companies, the Driver and Vehicle Licensing Authority and any other relevant registry for the purpose of effective implementation of this Act; collaborate with the Lands Commission, Registrar-General’s Department, the Office of the Registrar of Companies, the Driver and Vehicle Licensing Authority and any other relevant registry for the purpose of effective implementation of this Act; receive complaints from the public about alleged contraventions of this Act; receive complaints from the public about alleged contraventions of this Act; monitor the credit market to detect and prevent conduct that is prohibited by this Act; monitor the credit market to detect and prevent conduct that is prohibited by this Act; conduct investigations to ensure compliance with this Act; conduct investigations to ensure compliance with this Act; issue and enforce compliance orders; issue and enforce compliance orders; promote public awareness of credit matters, through promote public awareness of credit matters, through public education in the form of the design and dissemination of information to the public, public education in the form of the design and dissemination of information to the public, the provision of guidance to the credit market and industry, or the provision of guidance to the credit market and industry, or adoption of other measures to develop public awareness of the provisions of this Act; adoption of other measures to develop public awareness of the provisions of this Act; advise the Minister on matters of national policy related to credit and on the determination of standards as regards protection of the rights of borrowers and lenders under this Act; and advise the Minister on matters of national policy related to credit and on the determination of standards as regards protection of the rights of borrowers and lenders under this Act; and submit an annual report on the volume and cost of different types of credit products, market practices relating to those products, and their implications for the choice for the borrower and competition in the credit market to the Minister. submit an annual report on the volume and cost of different types of credit products, market practices relating to those products, and their implications for the choice for the borrower and competition in the credit market to the Minister. (2) The Bank shall, in furtherance of subsection (1), have regard to international developments in the field of credit and financing. The Bank shall, in furtherance of subsection (1), have regard to international developments in the field of credit and financing."
+    },
+    {
+      "provision_ref": "s77",
+      "section": "77",
+      "title": "Rules by the Bank",
+      "content": "The Bank may, by a Notice, make rules for the effective implementation of this Act. The Bank may, by a Notice, make rules for the effective implementation of this Act."
+    },
+    {
+      "provision_ref": "s78",
+      "section": "78",
+      "title": "Investigation",
+      "content": "Where the Bank has reason to suspect that a person has committed an offence under this Act, or committed an offence under this Act, or committed the offence of fraud or dishonesty in relation to a credit agreement committed the offence of fraud or dishonesty in relation to a credit agreement the Bank may conduct investigations as the Bank considers necessary in pursuance of this Act."
+    },
+    {
+      "provision_ref": "s79",
+      "section": "79",
+      "title": "Examination by the Bank",
+      "content": "(1) The Bank may, in the performance of the supervisory function of the Bank, examine the books, records, returns and other documents relating or relevant to the accounts of a lender who is subject to supervision by the Bank and may make copies or take possession of the records of the lender. The Bank may, in the performance of the supervisory function of the Bank, examine the books, records, returns and other documents relating or relevant to the accounts of a lender who is subject to supervision by the Bank and may make copies or take possession of the records of the lender. (2) The Bank may appoint a person to perform the function specified in subsection (1) on terms and conditions determined by the Bank. The Bank may appoint a person to perform the function specified in subsection (1) on terms and conditions determined by the Bank. (3) A lender who is subject to supervision by the Bank shall give the Bank access to and shall produce books, records, returns and other documents and information required to conduct the examination. A lender who is subject to supervision by the Bank shall give the Bank access to and shall produce books, records, returns and other documents and information required to conduct the examination."
+    },
+    {
+      "provision_ref": "s80",
+      "section": "80",
+      "title": "Order for search of premises",
+      "content": "(1) Where the Bank has reasonable grounds to suspect that Where the Bank has reasonable grounds to suspect that an action prohibited by this Act has taken place, is taking place, or is likely to take place on or in the premises, an action prohibited by this Act has taken place, is taking place, or is likely to take place on or in the premises, an article connected with an investigation into the prohibited conduct is in the possession of, or under the control of a person who is on or in the premises, or an article connected with an investigation into the prohibited conduct is in the possession of, or under the control of a person who is on or in the premises, or a book, the production of which has been requested by the Bank but which has not been produced in compliance with the direction is in the possession of a person who is in the premises or has control of that premises a book, the production of which has been requested by the Bank but which has not been produced in compliance with the direction is in the possession of a person who is in the premises or has control of that premises the Bank may apply to a court for the issue of a warrant authorising the Bank or a person named in the warrant to enter and search the premises. (2) A person authorised to enter and search premises may A person authorised to enter and search premises may search any person on the premises if there are reasonable grounds to believe that the person has personal possession of an article or document that has a bearing on an investigation being undertaken by the Bank; search any person on the premises if there are reasonable grounds to believe that the person has personal possession of an article or document that has a bearing on an investigation being undertaken by the Bank; examine an article or document that is on the premises and that has a bearing on an investigation being undertaken by the Bank; examine an article or document that is on the premises and that has a bearing on an investigation being undertaken by the Bank; request information from request information from the owner of an article or document, the owner of an article or document, a person in control of the premises where the article or document is kept, a person in control of the premises where the article or document is kept, a person who has control of the article or document, or a person who has control of the article or document, or any other person who may have information about that article or document; any other person who may have information about that article or document; take extracts from, or make copies of, any book or document that is in the premises and has a bearing on an investigation being undertaken by the Bank; and take extracts from, or make copies of, any book or document that is in the premises and has a bearing on an investigation being undertaken by the Bank; and use any computer system on the premises, or require assistance of a person on the premises to use that computer system, to use any computer system on the premises, or require assistance of a person on the premises to use that computer system, to access data contained in or available to that computer system; access data contained in or available to that computer system; reproduce a record from that data; reproduce a record from that data; seize an output from that computer for examination and copying; and seize an output from that computer for examination and copying; and attach, and if necessary, remove from the premises for examination and safekeeping, any item that has a bearing on an investigation being undertaken by the Bank. attach, and if necessary, remove from the premises for examination and safekeeping, any item that has a bearing on an investigation being undertaken by the Bank. (3) In this section “premises” includes structure, building, place, aircraft, vehicle and vessel. In this section “premises” includes structure, building, place, aircraft, vehicle and vessel."
+    },
+    {
+      "provision_ref": "s81",
+      "section": "81",
+      "title": "Power of court to make certain orders",
+      "content": "Where on the application by a person alleging infringement under this Act, it appears to a court that another person has committed an offence under this Act; has committed an offence under this Act; has contravened the conditions or restrictions of a licence or a code of conduct issued by or with the permission of the Bank; or has contravened the conditions or restrictions of a licence or a code of conduct issued by or with the permission of the Bank; or is about to do an act that, if done, would be an offence or contravention of this Act is about to do an act that, if done, would be an offence or contravention of this Act the court may, without limitation to prior orders, make an order to secure compliance with any other order under this section, and direct that other person to do or refrain from doing a specified act."
+    },
+    {
+      "provision_ref": "s82",
+      "section": "82",
+      "title": "Administrative sanctions",
+      "content": "Where there is an infringement under this Act, the Bank may impose an administrative penalty of not more than five thousand penalty units and in the case of a continued breach, to an additional penalty of not more than fifty penalty units for each day the breach continues. Where there is an infringement under this Act, the Bank may impose an administrative penalty of not more than five thousand penalty units and in the case of a continued breach, to an additional penalty of not more than fifty penalty units for each day the breach continues."
+    },
+    {
+      "provision_ref": "s83",
+      "section": "83",
+      "title": "Regulations",
+      "content": "The Minister may, on the advice of the Bank, by legislative instrument make Regulations for the effective and efficient implementation of this Act. The Minister may, on the advice of the Bank, by legislative instrument make Regulations for the effective and efficient implementation of this Act."
+    },
+    {
+      "provision_ref": "s84",
+      "section": "84",
+      "title": "Method of recourse to Court",
+      "content": "A person who seeks recourse to the Court for any remedy under this Act shall do so in accordance with the High Court (Civil Procedure) Rules, 2004 (C.I. 47) or the District Court Rules, 2009 (C.I. 59). A person who seeks recourse to the Court for any remedy under this Act shall do so in accordance with the High Court (Civil Procedure) Rules, 2004 (C.I. 47) or the District Court Rules, 2009 (C.I. 59)."
+    },
+    {
+      "provision_ref": "s85",
+      "section": "85",
+      "title": "Interpretation",
+      "content": "In this Act, unless the context otherwise requires,“accession” in relation to goods, means goods that are physically united with other goods in a manner that the identity of each of the original goods is not lost;“account debtor” means a person who owes an obligation on an account or intangible property;“Bank” means the Bank of Ghana continued in existence under subsection (1) of section 1 of the Bank of Ghana Act, 2002, (Act 612);“bank” means any other bank other than the Bank of Ghana, issued with banking licence in accordance with the Banks and Specialised Deposit-Taking Institutions Act, 2016 (Act 930);“borrower” means a person who enters into a credit agreement with a lender;“cash proceeds” means money, cheques, deposit accounts or other similar medium of exchange;“collateral” means movable or immovable property that is subject to a security interest;“collateral identification” includes(a)in the case of a vehicle, the vehicle identification or chassis number marked or attached to the body frame by the manufacturer;(b)in the case of other movable property, the serial number marked on or attached to the property by the manufacturer; and(c)in the case of immovable property, the plot number, land title registration or deeds registration number or geographical coordinates of the land or building; “commingled goods” means goods that lose their distinct identity by becoming a part of a product or mass;“consumer goods” means goods bought or used primarily for personal, family or household purposes, and not for resale or for producing other goods;“control” means a relationship where a person or a group of persons acting in concert, directly or indirectly(a)owns twenty five percent or more of the voting rights of a person;(b)has the power to appoint or remove the majority of the members of the board of directors of the person;(c)has the ability to exert a significant influence on the management or policies of a person; or(d)has the ability to direct the activities of the person so as to affect the financial returns on any investment made with the person;“creditor” means a person to whom money is owed;“debtor” means a person who owes payment or other performance of a secured obligation, whether or not that person is the borrower who granted the security interest, including a secondary obligor such as a guarantor of a secured obligation;“equipment” means a tangible property that is primarily used or intended to be used by the borrower in the operation of the business of the borrower other than inventory or consumer goods;“finance lease” means a lease agreement, even if not nominally referred to as a lease, under which, at the end of the lease(a)the lessee may acquire ownership of the asset that is the object of the lease;(b)the lessee automatically becomes the owner of the asset that is the object of the lease; and(c)the asset has no more than a nominal residual value;“hire purchase agreement” means an agreement for the bailment of goods under which the bailee may buy the goods or under which the property in the goods will or may pass to the bailee;“inventory” means goods that are(a)held by a person for sale or lease;(b)to be provided under a contract for services;(c)raw materials or work in progress; or(d)materials used or consumed in a business;“lender” means a person who enters into a credit agreement with a borrower and includes(a)a person who advances credit;(b)a person that sells goods on credit;(c)a person that provides services on credit;(d)a finance lessor; and(e)a buyer of accounts receivable;“lien” includes an interest in property created by an enactment or a judgment;“maximum amount” means the principal loan amount, interest and any charges or fees for the period for which a registration is effective under this Act;“Minister” means the Minister responsible for Finance;“netting agreement” means an agreement between two or more parties that provides for one or more of the following:(a)the net settlement of payments due in the same currency on the same date whether by novation or otherwise;(b)upon the insolvency or other default by a party, the termination of all outstanding transactions at their replacement or fair market values, conversion of the sums into a single currency and netting into a single payment by one party to the other; or(c)the set-off amounts calculated as set out in paragraph (b) under two or more netting agreements;“non-purchase money security interest” means a debt secured with a property already owned by the borrower;“novation” means the variation of an obligation under a contract with the consent of the parties or the replacement of a party to a contract with the consent of the parties;“ordinarily resident” means a situation where a person has lived in Ghana for at least twelve months;“perishable collateral” includes food products, agricultural products, pharmaceutical products, chemical products and any other collateral subject to decay or expiration;“prior law” means any law that regulates security interest before the commencement of this Act;“proceeds” means an identifiable or traceable property received as a result of sale or other disposition, collection, lease or licence of collateral, civil or natural fruits, dividends, distributions, insurance proceeds and claims arising from defects in, damage to or loss of collateral;“product or mass” means tangible property that is so physically associated or united with other tangible property that it has lost its separate identity;“property” includes movable and immovable property;“purchaser” means a person who obtains property for money or any other valuable consideration;“purchase money security interest” means(a)a security interest in collateral retained by a seller that secures an obligation to pay an unpaid portion of the purchase price of the collateral;(b)a security interest taken by a person who gives value for the purpose of enabling a borrower to acquire rights in the collateral, to the extent that the value is applied to acquire those rights; or(c)an interest of a finance lessor but does not include a transaction of sale and lease back to the borrower;“register” means a register of security interest kept and maintained by the Registry;“Registry” means the Collateral Registry established under section 18;“registration form” means a form prescribed by the Registry in the Registry Rules for the purpose of registering security interest;“Registry Rules” means a notice issued by the Bank for the effective implementation of this Act;“registrant” means a lender or a representative or an agent of the lender registering security interest or undertaking post-registration activities on the register;“security interest” means a proprietary right in a movable or immovable asset that is created by an agreement to secure payment or the performance of an obligation, regardless of whether the parties have denominated it as a security interest and regardless of the type of asset, the status of the fixed and floating charge, charge on chattels, mortgage over an immovable property, contractual lien, pledge, outright or security assignment of receivables, reservation of title, finance lease, trust for the purposes of security or other encumbrance of any nature created by an agreement other than a lien arising by operation of law;“specialised deposit-taking institution” means a body corporate, other than a bank, which is issued with a licence in accordance with the Banks and Specialised Deposit-Taking Institutions Act, 2016 (Act 930) and engages in the deposit-taking business; and“value” means consideration that is sufficient to support a simple contract, and includes an antecedent debt or liability, and a binding commitment to provide future value. In this Act, unless the context otherwise requires, “accession” in relation to goods, means goods that are physically united with other goods in a manner that the identity of each of the original goods is not lost; “account debtor” means a person who owes an obligation on an account or intangible property; “Bank” means the Bank of Ghana continued in existence under subsection (1) of section 1 of the Bank of Ghana Act, 2002, (Act 612); “bank” means any other bank other than the Bank of Ghana, issued with banking licence in accordance with the Banks and Specialised Deposit-Taking Institutions Act, 2016 (Act 930); “borrower” means a person who enters into a credit agreement with a lender; “cash proceeds” means money, cheques, deposit accounts or other similar medium of exchange; “collateral” means movable or immovable property that is subject to a security interest; in the case of a vehicle, the vehicle identification or chassis number marked or attached to the body frame by the manufacturer; in the case of other movable property, the serial number marked on or attached to the property by the manufacturer; and in the case of immovable property, the plot number, land title registration or deeds registration number or geographical coordinates of the land or building; “commingled goods” means goods that lose their distinct identity by becoming a part of a product or mass; “consumer goods” means goods bought or used primarily for personal, family or household purposes, and not for resale or for producing other goods; owns twenty five percent or more of the voting rights of a person; has the power to appoint or remove the majority of the members of the board of directors of the person; has the ability to exert a significant influence on the management or policies of a person; or has the ability to direct the activities of the person so as to affect the financial returns on any investment made with the person; “creditor” means a person to whom money is owed; “debtor” means a person who owes payment or other performance of a secured obligation, whether or not that person is the borrower who granted the security interest, including a secondary obligor such as a guarantor of a secured obligation; “equipment” means a tangible property that is primarily used or intended to be used by the borrower in the operation of the business of the borrower other than inventory or consumer goods; the lessee may acquire ownership of the asset that is the object of the lease; the lessee automatically becomes the owner of the asset that is the object of the lease; and the asset has no more than a nominal residual value; “hire purchase agreement” means an agreement for the bailment of goods under which the bailee may buy the goods or under which the property in the goods will or may pass to the bailee; held by a person for sale or lease; to be provided under a contract for services; raw materials or work in progress; or materials used or consumed in a business; a person who advances credit; a person that sells goods on credit; a person that provides services on credit; a finance lessor; and a buyer of accounts receivable; “lien” includes an interest in property created by an enactment or a judgment; “maximum amount” means the principal loan amount, interest and any charges or fees for the period for which a registration is effective under this Act; “Minister” means the Minister responsible for Finance; the net settlement of payments due in the same currency on the same date whether by novation or otherwise; upon the insolvency or other default by a party, the termination of all outstanding transactions at their replacement or fair market values, conversion of the sums into a single currency and netting into a single payment by one party to the other; or the set-off amounts calculated as set out in paragraph (b) under two or more netting agreements; “non-purchase money security interest” means a debt secured with a property already owned by the borrower; “novation” means the variation of an obligation under a contract with the consent of the parties or the replacement of a party to a contract with the consent of the parties; “ordinarily resident” means a situation where a person has lived in Ghana for at least twelve months; “perishable collateral” includes food products, agricultural products, pharmaceutical products, chemical products and any other collateral subject to decay or expiration; “prior law” means any law that regulates security interest before the commencement of this Act; “proceeds” means an identifiable or traceable property received as a result of sale or other disposition, collection, lease or licence of collateral, civil or natural fruits, dividends, distributions, insurance proceeds and claims arising from defects in, damage to or loss of collateral; “product or mass” means tangible property that is so physically associated or united with other tangible property that it has lost its separate identity; “property” includes movable and immovable property; “purchaser” means a person who obtains property for money or any other valuable consideration; a security interest in collateral retained by a seller that secures an obligation to pay an unpaid portion of the purchase price of the collateral; a security interest taken by a person who gives value for the purpose of enabling a borrower to acquire rights in the collateral, to the extent that the value is applied to acquire those rights; or an interest of a finance lessor but does not include a transaction of sale and lease back to the borrower; “register” means a register of security interest kept and maintained by the Registry; “Registry” means the Collateral Registry established under section 18; “registration form” means a form prescribed by the Registry in the Registry Rules for the purpose of registering security interest; “Registry Rules” means a notice issued by the Bank for the effective implementation of this Act; “registrant” means a lender or a representative or an agent of the lender registering security interest or undertaking post-registration activities on the register; “security interest” means a proprietary right in a movable or immovable asset that is created by an agreement to secure payment or the performance of an obligation, regardless of whether the parties have denominated it as a security interest and regardless of the type of asset, the status of the fixed and floating charge, charge on chattels, mortgage over an immovable property, contractual lien, pledge, outright or security assignment of receivables, reservation of title, finance lease, trust for the purposes of security or other encumbrance of any nature created by an agreement other than a lien arising by operation of law; “specialised deposit-taking institution” means a body corporate, other than a bank, which is issued with a licence in accordance with the Banks and Specialised Deposit-Taking Institutions Act, 2016 (Act 930) and engages in the deposit-taking business; and “value” means consideration that is sufficient to support a simple contract, and includes an antecedent debt or liability, and a binding commitment to provide future value."
+    },
+    {
+      "provision_ref": "s86",
+      "section": "86",
+      "title": "Conflict of laws",
+      "content": "Where there is a conflict between this Act and any other enactment regarding the creation, perfection, effectiveness of security interests against a third party, enforcement and priority, the provisions of this Act shall supersede the provisions of that enactment. Where there is a conflict between this Act and any other enactment regarding the creation, perfection, effectiveness of security interests against a third party, enforcement and priority, the provisions of this Act shall supersede the provisions of that enactment."
+    },
+    {
+      "provision_ref": "s87",
+      "section": "87",
+      "title": "Transitional provisions",
+      "content": "(1) Subject to subsection (2), prior law shall apply to a matter that is the subject of proceedings before a court or an arbitral tribunal commenced before the entry into force of this Act. Subject to subsection (2), prior law shall apply to a matter that is the subject of proceedings before a court or an arbitral tribunal commenced before the entry into force of this Act. (2) Where an attempt to enforce a security interest has been made by a lender before the entry into force of this Act, enforcement may continue under the prior law or may proceed under this Act. Where an attempt to enforce a security interest has been made by a lender before the entry into force of this Act, enforcement may continue under the prior law or may proceed under this Act."
+    },
+    {
+      "provision_ref": "s88",
+      "section": "88",
+      "title": "Repeals and savings",
+      "content": "(1) The Borrowers and Lenders Act, 2008 (Act 773) is repealed. The Borrowers and Lenders Act, 2008 (Act 773) is repealed. (2) Despite the repeal of the Borrowers and Lenders Act, 2008 (Act 773) any Regulations, rules, orders, directives, notifications, instructions or any other executive or administrative act lawfully made, given or done under the Borrowers and Lenders Act, 2008 (Act 773) shall upon the coming into force of this Act continue in force until amended, reviewed, terminated or revoked in accordance with this Act. Despite the repeal of the Borrowers and Lenders Act, 2008 (Act 773) any Regulations, rules, orders, directives, notifications, instructions or any other executive or administrative act lawfully made, given or done under the Borrowers and Lenders Act, 2008 (Act 773) shall upon the coming into force of this Act continue in force until amended, reviewed, terminated or revoked in accordance with this Act."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "account debtor",
+      "definition": "a person who owes an obligation on an account or intangible property",
+      "source_provision": "s85"
+    },
+    {
+      "term": "Bank",
+      "definition": "the Bank of Ghana continued in existence under subsection (1) of section 1 of the Bank of Ghana Act, 2002, (Act 612)",
+      "source_provision": "s85"
+    },
+    {
+      "term": "bank",
+      "definition": "any other bank other than the Bank of Ghana, issued with banking licence in accordance with the Banks and Specialised Deposit-Taking Institutions Act, 2016 (Act 930)",
+      "source_provision": "s85"
+    },
+    {
+      "term": "borrower",
+      "definition": "a person who enters into a credit agreement with a lender",
+      "source_provision": "s85"
+    },
+    {
+      "term": "cash proceeds",
+      "definition": "money, cheques, deposit accounts or other similar medium of exchange",
+      "source_provision": "s85"
+    },
+    {
+      "term": "collateral",
+      "definition": "movable or immovable property that is subject to a security interest",
+      "source_provision": "s85"
+    },
+    {
+      "term": "commingled goods",
+      "definition": "goods that lose their distinct identity by becoming a part of a product or mass",
+      "source_provision": "s85"
+    },
+    {
+      "term": "consumer goods",
+      "definition": "goods bought or used primarily for personal, family or household purposes, and not for resale or for producing other goods",
+      "source_provision": "s85"
+    },
+    {
+      "term": "control",
+      "definition": "a relationship where a person or a group of persons acting in concert, directly or indirectly(a)owns twenty five percent or more of the voting rights of a person",
+      "source_provision": "s85"
+    },
+    {
+      "term": "creditor",
+      "definition": "a person to whom money is owed",
+      "source_provision": "s85"
+    },
+    {
+      "term": "debtor",
+      "definition": "a person who owes payment or other performance of a secured obligation, whether or not that person is the borrower who granted the security interest, including a secondary obligor such as a guarantor of a secured obligation",
+      "source_provision": "s85"
+    },
+    {
+      "term": "equipment",
+      "definition": "a tangible property that is primarily used or intended to be used by the borrower in the operation of the business of the borrower other than inventory or consumer goods",
+      "source_provision": "s85"
+    },
+    {
+      "term": "finance lease",
+      "definition": "a lease agreement, even if not nominally referred to as a lease, under which, at the end of the lease(a)the lessee may acquire ownership of the asset that is the object of the lease",
+      "source_provision": "s85"
+    },
+    {
+      "term": "hire purchase agreement",
+      "definition": "an agreement for the bailment of goods under which the bailee may buy the goods or under which the property in the goods will or may pass to the bailee",
+      "source_provision": "s85"
+    },
+    {
+      "term": "inventory",
+      "definition": "goods that are(a)held by a person for sale or lease",
+      "source_provision": "s85"
+    },
+    {
+      "term": "lender",
+      "definition": "a person who enters into a credit agreement with a borrower and includes(a)a person who advances credit",
+      "source_provision": "s85"
+    },
+    {
+      "term": "maximum amount",
+      "definition": "the principal loan amount, interest and any charges or fees for the period for which a registration is effective under this Act",
+      "source_provision": "s85"
+    },
+    {
+      "term": "Minister",
+      "definition": "the Minister responsible for Finance",
+      "source_provision": "s85"
+    },
+    {
+      "term": "netting agreement",
+      "definition": "an agreement between two or more parties that provides for one or more of the following:(a)the net settlement of payments due in the same currency on the same date whether by novation or otherwise",
+      "source_provision": "s85"
+    },
+    {
+      "term": "non-purchase money security interest",
+      "definition": "a debt secured with a property already owned by the borrower",
+      "source_provision": "s85"
+    },
+    {
+      "term": "novation",
+      "definition": "the variation of an obligation under a contract with the consent of the parties or the replacement of a party to a contract with the consent of the parties",
+      "source_provision": "s85"
+    },
+    {
+      "term": "ordinarily resident",
+      "definition": "a situation where a person has lived in Ghana for at least twelve months",
+      "source_provision": "s85"
+    },
+    {
+      "term": "prior law",
+      "definition": "any law that regulates security interest before the commencement of this Act",
+      "source_provision": "s85"
+    },
+    {
+      "term": "proceeds",
+      "definition": "an identifiable or traceable property received as a result of sale or other disposition, collection, lease or licence of collateral, civil or natural fruits, dividends, distributions, insurance proceeds and claims arising from defects in, damage to or loss of collateral",
+      "source_provision": "s85"
+    },
+    {
+      "term": "product or mass",
+      "definition": "tangible property that is so physically associated or united with other tangible property that it has lost its separate identity",
+      "source_provision": "s85"
+    },
+    {
+      "term": "purchaser",
+      "definition": "a person who obtains property for money or any other valuable consideration",
+      "source_provision": "s85"
+    },
+    {
+      "term": "register",
+      "definition": "a register of security interest kept and maintained by the Registry",
+      "source_provision": "s85"
+    },
+    {
+      "term": "Registry",
+      "definition": "the Collateral Registry established under section 18",
+      "source_provision": "s85"
+    },
+    {
+      "term": "registration form",
+      "definition": "a form prescribed by the Registry in the Registry Rules for the purpose of registering security interest",
+      "source_provision": "s85"
+    },
+    {
+      "term": "Registry Rules",
+      "definition": "a notice issued by the Bank for the effective implementation of this Act",
+      "source_provision": "s85"
+    },
+    {
+      "term": "registrant",
+      "definition": "a lender or a representative or an agent of the lender registering security interest or undertaking post-registration activities on the register",
+      "source_provision": "s85"
+    },
+    {
+      "term": "security interest",
+      "definition": "a proprietary right in a movable or immovable asset that is created by an agreement to secure payment or the performance of an obligation, regardless of whether the parties have denominated it as a security interest and regardless of the type of asset, the status of the fixed and floating charge, charge on chattels, mortgage over an immovable property, contractual lien, pledge, outright or security assignment of receivables, reservation of title, finance lease, trust for the purposes of security or other encumbrance of any nature created by an agreement other than a lien arising by operation of law",
+      "source_provision": "s85"
+    },
+    {
+      "term": "specialised deposit-taking institution",
+      "definition": "a body corporate, other than a bank, which is issued with a licence in accordance with the Banks and Specialised Deposit-Taking Institutions Act, 2016 (Act 930) and engages in the deposit-taking business",
+      "source_provision": "s85"
+    },
+    {
+      "term": "value",
+      "definition": "consideration that is sufficient to support a simple contract, and includes an antecedent debt or liability, and a binding commitment to provide future value. In this Act, unless the context otherwise requires, “accession” in relation to goods, means goods that are physically united with other goods in a manner that the identity of each of the original goods is not lost",
+      "source_provision": "s85"
+    },
+    {
+      "term": "account debtor",
+      "definition": "a person who owes an obligation on an account or intangible property",
+      "source_provision": "s85"
+    },
+    {
+      "term": "Bank",
+      "definition": "the Bank of Ghana continued in existence under subsection (1) of section 1 of the Bank of Ghana Act, 2002, (Act 612)",
+      "source_provision": "s85"
+    },
+    {
+      "term": "bank",
+      "definition": "any other bank other than the Bank of Ghana, issued with banking licence in accordance with the Banks and Specialised Deposit-Taking Institutions Act, 2016 (Act 930)",
+      "source_provision": "s85"
+    },
+    {
+      "term": "borrower",
+      "definition": "a person who enters into a credit agreement with a lender",
+      "source_provision": "s85"
+    },
+    {
+      "term": "cash proceeds",
+      "definition": "money, cheques, deposit accounts or other similar medium of exchange",
+      "source_provision": "s85"
+    },
+    {
+      "term": "collateral",
+      "definition": "movable or immovable property that is subject to a security interest",
+      "source_provision": "s85"
+    },
+    {
+      "term": "commingled goods",
+      "definition": "goods that lose their distinct identity by becoming a part of a product or mass",
+      "source_provision": "s85"
+    },
+    {
+      "term": "consumer goods",
+      "definition": "goods bought or used primarily for personal, family or household purposes, and not for resale or for producing other goods",
+      "source_provision": "s85"
+    },
+    {
+      "term": "creditor",
+      "definition": "a person to whom money is owed",
+      "source_provision": "s85"
+    },
+    {
+      "term": "debtor",
+      "definition": "a person who owes payment or other performance of a secured obligation, whether or not that person is the borrower who granted the security interest, including a secondary obligor such as a guarantor of a secured obligation",
+      "source_provision": "s85"
+    },
+    {
+      "term": "equipment",
+      "definition": "a tangible property that is primarily used or intended to be used by the borrower in the operation of the business of the borrower other than inventory or consumer goods",
+      "source_provision": "s85"
+    },
+    {
+      "term": "hire purchase agreement",
+      "definition": "an agreement for the bailment of goods under which the bailee may buy the goods or under which the property in the goods will or may pass to the bailee",
+      "source_provision": "s85"
+    },
+    {
+      "term": "maximum amount",
+      "definition": "the principal loan amount, interest and any charges or fees for the period for which a registration is effective under this Act",
+      "source_provision": "s85"
+    },
+    {
+      "term": "Minister",
+      "definition": "the Minister responsible for Finance",
+      "source_provision": "s85"
+    },
+    {
+      "term": "non-purchase money security interest",
+      "definition": "a debt secured with a property already owned by the borrower",
+      "source_provision": "s85"
+    },
+    {
+      "term": "novation",
+      "definition": "the variation of an obligation under a contract with the consent of the parties or the replacement of a party to a contract with the consent of the parties",
+      "source_provision": "s85"
+    },
+    {
+      "term": "ordinarily resident",
+      "definition": "a situation where a person has lived in Ghana for at least twelve months",
+      "source_provision": "s85"
+    },
+    {
+      "term": "prior law",
+      "definition": "any law that regulates security interest before the commencement of this Act",
+      "source_provision": "s85"
+    },
+    {
+      "term": "proceeds",
+      "definition": "an identifiable or traceable property received as a result of sale or other disposition, collection, lease or licence of collateral, civil or natural fruits, dividends, distributions, insurance proceeds and claims arising from defects in, damage to or loss of collateral",
+      "source_provision": "s85"
+    },
+    {
+      "term": "product or mass",
+      "definition": "tangible property that is so physically associated or united with other tangible property that it has lost its separate identity",
+      "source_provision": "s85"
+    },
+    {
+      "term": "purchaser",
+      "definition": "a person who obtains property for money or any other valuable consideration",
+      "source_provision": "s85"
+    },
+    {
+      "term": "register",
+      "definition": "a register of security interest kept and maintained by the Registry",
+      "source_provision": "s85"
+    },
+    {
+      "term": "Registry",
+      "definition": "the Collateral Registry established under section 18",
+      "source_provision": "s85"
+    },
+    {
+      "term": "registration form",
+      "definition": "a form prescribed by the Registry in the Registry Rules for the purpose of registering security interest",
+      "source_provision": "s85"
+    },
+    {
+      "term": "Registry Rules",
+      "definition": "a notice issued by the Bank for the effective implementation of this Act",
+      "source_provision": "s85"
+    },
+    {
+      "term": "registrant",
+      "definition": "a lender or a representative or an agent of the lender registering security interest or undertaking post-registration activities on the register",
+      "source_provision": "s85"
+    },
+    {
+      "term": "security interest",
+      "definition": "a proprietary right in a movable or immovable asset that is created by an agreement to secure payment or the performance of an obligation, regardless of whether the parties have denominated it as a security interest and regardless of the type of asset, the status of the fixed and floating charge, charge on chattels, mortgage over an immovable property, contractual lien, pledge, outright or security assignment of receivables, reservation of title, finance lease, trust for the purposes of security or other encumbrance of any nature created by an agreement other than a lien arising by operation of law",
+      "source_provision": "s85"
+    },
+    {
+      "term": "specialised deposit-taking institution",
+      "definition": "a body corporate, other than a bank, which is issued with a licence in accordance with the Banks and Specialised Deposit-Taking Institutions Act, 2016 (Act 930) and engages in the deposit-taking business",
+      "source_provision": "s85"
+    }
+  ]
+}

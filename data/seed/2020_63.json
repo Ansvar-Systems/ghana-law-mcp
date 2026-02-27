@@ -1,0 +1,81 @@
+{
+  "id": "act-63-2020",
+  "type": "act",
+  "title": "Emergency Communications System Instrument, 2020",
+  "short_name": "ECSI 2020",
+  "act_number": 63,
+  "year": 2020,
+  "status": "in_force",
+  "issued_date": "2020-03-23",
+  "url": "https://ghalii.org/akn/gh/act/2020/63",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "Emergency preparedness",
+      "content": "(1) A network operator or service provider shall A network operator or service provider shall put the network of the network provider or service provider at the disposal of the State for the mass dissemination of information to the public in the case of an emergency, including a public health emergency; and put the network of the network provider or service provider at the disposal of the State for the mass dissemination of information to the public in the case of an emergency, including a public health emergency; and cooperate with the National Communications Authority Common Platform to provide information to State agencies in the case of an emergency, including a public health emergency. cooperate with the National Communications Authority Common Platform to provide information to State agencies in the case of an emergency, including a public health emergency. (2) A network operator or service provider shall make available the following: A network operator or service provider shall make available the following: all caller and called numbers; all caller and called numbers; Merchant Codes; Merchant Codes; Mobile Station International Subscriber Directory Number Codes; and Mobile Station International Subscriber Directory Number Codes; and International Mobile Equipment Identity Codes and site location. International Mobile Equipment Identity Codes and site location. (3) A network operator or service provider shall ensure A network operator or service provider shall ensure that all roaming files are made available to the National Communications Authority Common Platform; and that all roaming files are made available to the National Communications Authority Common Platform; and location log files are provided to the National Communications Authority Common Platform to facilitate location-based tracking. location log files are provided to the National Communications Authority Common Platform to facilitate location-based tracking."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "Central Subscriber Identity Module Register",
+      "content": "(1) An institution designated by the Minister under paragraph 4 shall establish a Central Subscriber Identity Module Register. An institution designated by the Minister under paragraph 4 shall establish a Central Subscriber Identity Module Register. (2) The Central Subscriber Identity Module Register shall be the centralised database for validly registered Subscriber Identity Module cards and subscriber numbers on all networks of mobile and service providers in the country. The Central Subscriber Identity Module Register shall be the centralised database for validly registered Subscriber Identity Module cards and subscriber numbers on all networks of mobile and service providers in the country."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "Central Equipment Identity Register",
+      "content": "(1) An institution designated by the Minister under paragraph 4 shall establish a Central Equipment Identity Register. An institution designated by the Minister under paragraph 4 shall establish a Central Equipment Identity Register. (2) The Central Equipment Identity Register shall be the centralised database for validly registered terminal equipment on all networks of mobile and service providers in the country. The Central Equipment Identity Register shall be the centralised database for validly registered terminal equipment on all networks of mobile and service providers in the country. (3) A network operator or a service provider who provides services over a public communication network shall establish an Equipment Identity Register. A network operator or a service provider who provides services over a public communication network shall establish an Equipment Identity Register. (4) A network operator or service provider shall include in the Equipment Identity Register A network operator or service provider shall include in the Equipment Identity Register the Mobile Station International Subscriber Directory Number Code of the network operator or service provider; the Mobile Station International Subscriber Directory Number Code of the network operator or service provider; the International Mobile Equipment Identity Code of the network operator or service provider; the International Mobile Equipment Identity Code of the network operator or service provider; the International Mobile Subscriber Identity and Site Location information of subscribers of the network operator or service provider; and the International Mobile Subscriber Identity and Site Location information of subscribers of the network operator or service provider; and any other information that the Minister may determine. any other information that the Minister may determine. (5) A network operator or service provider shall connect the Equipment Identity Register of the network operator or service provider to the Central Equipment Identity Register for purposes of synchronisation and the sharing of information. A network operator or service provider shall connect the Equipment Identity Register of the network operator or service provider to the Central Equipment Identity Register for purposes of synchronisation and the sharing of information. (6) A network operator or service provider shall ensure that only a terminal equipment which is registered with a unique identifier is connected to the network of the network operator or service provider. A network operator or service provider shall ensure that only a terminal equipment which is registered with a unique identifier is connected to the network of the network operator or service provider."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "Hosting of Central Subscriber Identity Module Register and Central Equipment Identity Register",
+      "content": "The Central Subscriber Identity Module Register and the Central Equipment Identity Register shall be hosted by an institution designated by the Minister responsible for Communications. The Central Subscriber Identity Module Register and the Central Equipment Identity Register shall be hosted by an institution designated by the Minister responsible for Communications."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "Connection and synchronisation of the Central Subscriber Identity Module and Central Equipment Identity Registers",
+      "content": "An institution designated under paragraph 4, shall where the circumstances require, connect the Central Subscriber Identity Module Register and Central Equipment Identity Register to other external databases for the purpose of verification and validation of a subscriber number, a subscriber number, a Merchant Code, a Merchant Code, a Subscriber Identity Module card, and a Subscriber Identity Module card, and a terminal equipment. a terminal equipment."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "Interpretation",
+      "content": "In this Instrument, unless the context otherwise requires,\"International Mobile Equipment Identity\" means a code of a telephone device which is used to identify the telephone device;\"Merchant Code\" means a specific code assigned to a merchant by a mobile money operator for payment on the platform of the operator;\"Mobile Station International Subscriber Directory Number\" means a code on a Subscriber Identity Module card that identifies the Subscriber Identity Module card of the network including the phone number and network number; and\"terminal equipment\" means an equipment which is used to process a large amount of data in a speedy manner such as a server, hardware, software and terminal devices. In this Instrument, unless the context otherwise requires, \"International Mobile Equipment Identity\" means a code of a telephone device which is used to identify the telephone device; \"Merchant Code\" means a specific code assigned to a merchant by a mobile money operator for payment on the platform of the operator; \"Mobile Station International Subscriber Directory Number\" means a code on a Subscriber Identity Module card that identifies the Subscriber Identity Module card of the network including the phone number and network number; and \"terminal equipment\" means an equipment which is used to process a large amount of data in a speedy manner such as a server, hardware, software and terminal devices."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "International Mobile Equipment Identity",
+      "definition": "a code of a telephone device which is used to identify the telephone device",
+      "source_provision": "s6"
+    },
+    {
+      "term": "Merchant Code",
+      "definition": "a specific code assigned to a merchant by a mobile money operator for payment on the platform of the operator",
+      "source_provision": "s6"
+    },
+    {
+      "term": "Mobile Station International Subscriber Directory Number",
+      "definition": "a code on a Subscriber Identity Module card that identifies the Subscriber Identity Module card of the network including the phone number and network number",
+      "source_provision": "s6"
+    },
+    {
+      "term": "terminal equipment",
+      "definition": "an equipment which is used to process a large amount of data in a speedy manner such as a server, hardware, software and terminal devices. In this Instrument, unless the context otherwise requires, \"International Mobile Equipment Identity\" means a code of a telephone device which is used to identify the telephone device",
+      "source_provision": "s6"
+    },
+    {
+      "term": "Merchant Code",
+      "definition": "a specific code assigned to a merchant by a mobile money operator for payment on the platform of the operator",
+      "source_provision": "s6"
+    },
+    {
+      "term": "Mobile Station International Subscriber Directory Number",
+      "definition": "a code on a Subscriber Identity Module card that identifies the Subscriber Identity Module card of the network including the phone number and network number",
+      "source_provision": "s6"
+    }
+  ]
+}

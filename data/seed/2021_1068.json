@@ -1,0 +1,67 @@
+{
+  "id": "act-1068-2021",
+  "type": "act",
+  "title": "COVID-19 Health Recovery Levy Act, 2021",
+  "short_name": "CHRL 2021",
+  "act_number": 1068,
+  "year": 2021,
+  "status": "in_force",
+  "issued_date": "2021-03-31",
+  "url": "https://ghalii.org/akn/gh/act/2021/1068",
+  "provisions": [
+    {
+      "provision_ref": "s1",
+      "section": "1",
+      "title": "Imposition of Levy",
+      "content": "(1) There is imposed by this Act a COVID-19 Health Recovery Levy on the There is imposed by this Act a COVID-19 Health Recovery Levy on the supply of goods or services made in the country other than exempt goods or services; and supply of goods or services made in the country other than exempt goods or services; and import of goods or import of services other than exempt imports. import of goods or import of services other than exempt imports. (2) The time of supply is the same as provided in the Value Added Tax Act, 2013 (Act 870). The time of supply is the same as provided in the Value Added Tax Act, 2013 (Act 870). (3) A person who charges the Value Added Tax flat rate shall also charge the Levy on the supply of goods or services. A person who charges the Value Added Tax flat rate shall also charge the Levy on the supply of goods or services. (4) Except as otherwise provided in this Act, the rate of the Levy is one per cent and is calculated on the value of the taxable supply of the goods or services or on the value of the imports. Except as otherwise provided in this Act, the rate of the Levy is one per cent and is calculated on the value of the taxable supply of the goods or services or on the value of the imports. (5) The Levy is subject to review by the Minister. The Levy is subject to review by the Minister."
+    },
+    {
+      "provision_ref": "s2",
+      "section": "2",
+      "title": "Exempt supply of goods and services",
+      "content": "A supply in respect of any of the matters set out in the First Schedule to the Value Added Tax Act, 2013 (Act 870) is exempt from the Levy imposed under section 1. A supply in respect of any of the matters set out in the First Schedule to the Value Added Tax Act, 2013 (Act 870) is exempt from the Levy imposed under section 1."
+    },
+    {
+      "provision_ref": "s3",
+      "section": "3",
+      "title": "Zero-rated supply of goods and services",
+      "content": "A supply in respect of any of the matters set out in the Second Schedule of the Value Added Tax Act, 2013 (Act 870) is zero-rated as regards the Levy imposed under section 1. A supply in respect of any of the matters set out in the Second Schedule of the Value Added Tax Act, 2013 (Act 870) is zero-rated as regards the Levy imposed under section 1."
+    },
+    {
+      "provision_ref": "s4",
+      "section": "4",
+      "title": "Relief from Levy",
+      "content": "There is granted by this Act, relief from the payment of the Levy to the individuals, organisations and in respect of the matters specified in the Third Schedule to the Value Added Tax Act, 2013 (Act 870). There is granted by this Act, relief from the payment of the Levy to the individuals, organisations and in respect of the matters specified in the Third Schedule to the Value Added Tax Act, 2013 (Act 870)."
+    },
+    {
+      "provision_ref": "s5",
+      "section": "5",
+      "title": "Collection and administration of the Levy",
+      "content": "(1) The Commissioner-General is responsible for the collection of the Levy except as otherwise provided in this Act. The Commissioner-General is responsible for the collection of the Levy except as otherwise provided in this Act. (2) The Revenue Administration Act, 2016 (Act 915) shall govern the administration of the Levy. The Revenue Administration Act, 2016 (Act 915) shall govern the administration of the Levy. (3) The Value Added Tax Act, 2013 (Act 870) applies to this Act with the necessary modifications with respect to the collection of the Levy. The Value Added Tax Act, 2013 (Act 870) applies to this Act with the necessary modifications with respect to the collection of the Levy. (4) The Levy is not subject to an input tax deduction. The Levy is not subject to an input tax deduction. (5) The Commissioner-General shall pay money collected as Levy into the COVTD-19 Health Recovery Levy sub-account of the Consolidated Fund created for that purpose. The Commissioner-General shall pay money collected as Levy into the COVTD-19 Health Recovery Levy sub-account of the Consolidated Fund created for that purpose."
+    },
+    {
+      "provision_ref": "s6",
+      "section": "6",
+      "title": "Regulations",
+      "content": "The Minister may, by legislative instrument, make Regulations to provide for the efficient and effective implementation of this Act. The Minister may, by legislative instrument, make Regulations to provide for the efficient and effective implementation of this Act."
+    },
+    {
+      "provision_ref": "s7",
+      "section": "7",
+      "title": "Interpretation",
+      "content": "In this Act, unless the context otherwise requires,“Levy” means COVID-19 Health Recovery Levy; and“Minister” means the Minister responsible for Finance. In this Act, unless the context otherwise requires, “Levy” means COVID-19 Health Recovery Levy; and “Minister” means the Minister responsible for Finance."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Levy",
+      "definition": "COVID-19 Health Recovery Levy",
+      "source_provision": "s7"
+    },
+    {
+      "term": "Minister",
+      "definition": "the Minister responsible for Finance. In this Act, unless the context otherwise requires, “Levy” means COVID-19 Health Recovery Levy",
+      "source_provision": "s7"
+    }
+  ]
+}
