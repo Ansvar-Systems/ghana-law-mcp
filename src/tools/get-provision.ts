@@ -11,6 +11,7 @@ export interface GetProvisionInput {
   part?: string;
   chapter?: string;
   section?: string;
+  article?: string;
   provision_ref?: string;
 }
 
@@ -49,7 +50,7 @@ export async function getProvision(
 
   const resolvedDocumentId = resolveExistingStatuteId(db, input.document_id) ?? input.document_id;
 
-  const provisionRef = input.provision_ref ?? input.section;
+  const provisionRef = input.provision_ref ?? input.section ?? (input as any).article;
 
   // If no specific provision, return all provisions for the document (with safety cap)
   if (!provisionRef) {
