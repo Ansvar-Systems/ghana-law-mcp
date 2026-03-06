@@ -347,7 +347,7 @@ const EU_TOOL_NAMES = new Set([
   'validate_eu_compliance',
 ]);
 
-export function buildTools(context?: AboutContext): Tool[] {
+export function buildTools(db?: InstanceType<typeof Database>, context?: AboutContext): Tool[] {
   let hasEuData = false;
 
   if (db) {
@@ -365,8 +365,6 @@ export function buildTools(context?: AboutContext): Tool[] {
     return true;
   });
 
-  tools.push(LIST_SOURCES_TOOL);
-
   if (context) {
     tools.push(ABOUT_TOOL);
   }
@@ -379,7 +377,7 @@ export function registerTools(
   db: InstanceType<typeof Database>,
   context?: AboutContext,
 ): void {
-  const allTools = buildTools(context);
+  const allTools = buildTools(db, context);
 
   server.setRequestHandler(ListToolsRequestSchema, async () => {
     return { tools: allTools };
